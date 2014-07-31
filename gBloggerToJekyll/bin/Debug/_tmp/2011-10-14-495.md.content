@@ -1,0 +1,52 @@
+<br />
+先来个"卡普雷卡尔黑洞"的介绍：<br />
+<u><b>495数字黑洞</b></u><br />
+1、任取一个<span class="Apple-style-span" style="color: red;">三位数</span>的<span class="Apple-style-span" style="color: red;">正整数</span>（每位数字<span class="Apple-style-span" style="color: red;">不要相同</span>～）<br />
+2、<span class="Apple-style-span" style="color: red;">从大到小</span>排列那三位数的每一位数字--这称为第<span class="Apple-style-span" style="color: red;">一</span>数<br />
+3、再把第一数的数字<span class="Apple-style-span" style="color: red;">倒反</span>过来--这称为第<span class="Apple-style-span" style="color: red;">二</span>数<br />
+4、在第一和第二数之中，<span class="Apple-style-span" style="color: red;">拿大数减小数</span><br />
+5、把得出来的结果在重复步骤一至五<br />
+看看会的到什么？<br />
+<br />
+<a name='more'></a><br />
+<br />
+实例：<br />
+1、我选了486<br />
+2、排序得864<br />
+3、反序得468<br />
+4、大减小864-468得396<br />
+重复；<br />
+第一次计算结果：396<br />
+第二次计算结果：594<br />
+第三次计算结果：495 &lt;--495出现了～<br />
+<br />
+如果拿495做实验<br />
+第一次计算结果：954-459=459 &lt;--又出现了～<br />
+<br />
+495就是这数字黑洞的"洞底"，<span class="Apple-style-span" style="color: red;">所有的三位数重复上述步骤后总会的到这数字</span>！<br />
+<br />
+也许有人会问：四位数呢？<br />
+四位数也能哦！<br />
+这是"洞底"是<span class="Apple-style-span" style="color: red;">6174</span>罢了～<br />
+<br />
+那如果五位数呢？六位数？<br />
+四位数以上重复的不是一个数字，而是一个<span class="Apple-style-span" style="color: red;">数组</span>！<br />
+怎样说呢？<br />
+来试试看吧！<br />
+<br />
+我选82646<br />
+<br />
+第1次：61974<br />
+第2次：82962<br />
+第3次：75933<br />
+第4次：63954<br />
+——————————————<br />
+第5次：61974 &lt;--看到吧！重复了！<br />
+第6次：82962&nbsp;&lt;--看到吧！重复了！<br />
+第7次：75933&nbsp;&lt;--看到吧！重复了！<br />
+第8次：63954&nbsp;&lt;--看到吧！重复了！<br />
+——————————————<br />
+<br />
+这程序帮您重复那些无聊，但是结果很有趣的操作，您会深深爱上数学的！！<br />
+下载地址：<a href="http://dl.dropbox.com/u/43619472/%E6%89%B9%E5%A4%84%E7%90%86/%E6%9C%89%E8%B6%A3%E7%9A%84%E6%95%B0%E5%AD%A6/%E5%8D%A1%E6%99%AE%E9%9B%B7%E5%8D%A1%E5%B0%94%E9%BB%91%E6%B4%9E%E6%95%B0%E5%AD%97%E9%BB%91%E6%B4%9E.bat">卡普雷卡尔黑洞数字黑洞.bat</a><br />
+<b><br /></b>

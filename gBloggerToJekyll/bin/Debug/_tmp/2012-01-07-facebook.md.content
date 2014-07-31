@@ -1,0 +1,106 @@
+在Facebook和朋友聊天时发现的～<br />
+起初并不知道是什么来的。。。<br />
+<br />
+慢慢研究才抓到技巧～<br />
+<br />
+怎样说 <b>在聊天内打出图片</b>呢？<br />
+发个图做示范！<br />
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-DVP88ccSkWs/Twhb1RftcwI/AAAAAAAABJM/GBErUV89c8s/s1600/2012-01-07+22-48-56_%25282%2529+%257E%25E6%2596%25B0%25E4%25BB%2594%25E5%2592%258C%25E4%25BD%25A0e%25E8%25B5%25B7%25E5%25AD%25A6%25E7%2594%25B5%25E8%2584%2591%257E+-+360Chrome.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-DVP88ccSkWs/Twhb1RftcwI/AAAAAAAABJM/GBErUV89c8s/s1600/2012-01-07+22-48-56_%25282%2529+%257E%25E6%2596%25B0%25E4%25BB%2594%25E5%2592%258C%25E4%25BD%25A0e%25E8%25B5%25B7%25E5%25AD%25A6%25E7%2594%25B5%25E8%2584%2591%257E+-+360Chrome.png" /></a></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+惊奇吧？</div>
+<div class="separator" style="clear: both; text-align: left;">
+现在让我来告诉你怎样实现！</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+只要打入 <b>[[一些号码/字母]] </b>就可以啦！</div>
+<div class="separator" style="clear: both; text-align: left;">
+怎样说呢？</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+例如刚刚那张图是不是显示了一个GoogleChrome的图形出来？</div>
+<div class="separator" style="clear: both; text-align: left;">
+那就打入<b> [[googlechrome]]</b> 按发送 就可以啦！（但我不能确保图片的正确性，比如你打进<b>[[mozilafirefox]]</b>会出现一个不是 Firefox的图片。。待会儿会说为什么～）</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+再发个图！</div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-BeQoZfNN92U/TwhdSB1wrkI/AAAAAAAABJU/-OB8V42FWys/s1600/2012-01-07+22-55-31_Greenshot.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-BeQoZfNN92U/TwhdSB1wrkI/AAAAAAAABJU/-OB8V42FWys/s1600/2012-01-07+22-55-31_Greenshot.png" /></a></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+Google Chrome的图形就出来啦！<br />
+<br />
+那有人可能会问<br />
+<b>[[一些数字/字母]]</b>要输入写什么呢？如果我要显示特定的图片又要怎样？<br />
+<br />
+我们来谈谈<b>要怎样显示特定图片</b><br />
+<br />
+<b>--显示一个人的Profile Picture</b><br />
+<br />
+这个就很简单啦！<br />
+<br />
+<b>去到要是那个人的个人主页，</b><br />
+URL栏上有两种URL类型。。<br />
+<br />
+第一种：<br />
+像我的这样的，是<b>有用户名</b>的<br />
+<br />
+<b>[[]]</b>里面的数字/字母就是<b>www.facebook.com/后面那行字</b>就可以啦！<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-LJR9Jo998TM/TwhezQ7KWUI/AAAAAAAABJc/G7nqRHDA27M/s1600/2012-01-07+23-01-40.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-LJR9Jo998TM/TwhezQ7KWUI/AAAAAAAABJc/G7nqRHDA27M/s1600/2012-01-07+23-01-40.png" /></a></div>
+<br />
+那我们就试试看输入（我的FB号&gt;&lt;）：<b>[[zhongbii]]</b>
+<br />
+效果图：<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-uf4tZUnl15M/TwhfNdLGW2I/AAAAAAAABJk/g_CGy9HfJtM/s1600/2012-01-07+23-04-29.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-uf4tZUnl15M/TwhfNdLGW2I/AAAAAAAABJk/g_CGy9HfJtM/s1600/2012-01-07+23-04-29.png" /></a></div>
+<br />
+还有一种就是这样的：<br />
+类似用户号码型的：<br />
+<b>[[]]</b>
+里面的数字/字母就是&nbsp;<b>www.facebook.com/profile.php?id=后面的ID号码</b>&nbsp;就可以咯～
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-lfUvgZazid4/Twhf04JTKoI/AAAAAAAABJs/0JtBlvGC-Lg/s1600/2012-01-07+23-07-15.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-lfUvgZazid4/Twhf04JTKoI/AAAAAAAABJs/0JtBlvGC-Lg/s1600/2012-01-07+23-07-15.png" /></a></div>
+<br />
+试试看（又拿我的ID号开刀&gt;&lt;）:<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-v54yVAPC_Q4/Twhgtl2nYJI/AAAAAAAABJ0/QflMqo0yurg/s1600/2012-01-07+23-11-22.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-v54yVAPC_Q4/Twhgtl2nYJI/AAAAAAAABJ0/QflMqo0yurg/s1600/2012-01-07+23-11-22.png" /></a></div>
+<br />
+好啦～<br />
+此外，<br />
+也可以显示专页、群、等等的照片哦！<br />
+方法都一样，不多说了～<br />
+<br />
+还是得罗嗦下：<br />
+<b>群</b>的：<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-tlT4a5nGghg/TwhhWHjhYHI/AAAAAAAABJ8/f6BJGH2gSd4/s1600/2012-01-07+23-14-10.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-tlT4a5nGghg/TwhhWHjhYHI/AAAAAAAABJ8/f6BJGH2gSd4/s1600/2012-01-07+23-14-10.png" /></a></div>
+<b>[[]]</b>内只要输入www.facebook.com/gropus/<b>后面的数字</b>就可以啦！<br />
+<br />
+<b>专页</b>的：<br />
+格式很类似用户名的，这里不再多说～<br />
+<br />
+<br />
+<br />
+<div class="MsoNormal">
+<span style="line-height: 20px;">好啦～</span></div>
+<div class="MsoNormal">
+<span style="line-height: 20px;">就到这儿啦～</span></div>
+<div class="MsoNormal">
+<span style="line-height: 20px;">不成功/有疑问能留言哦～</span></div>
+<br />
+<div class="MsoNormal">
+<s><o:p></o:p></s></div>
+<br />
+<br />
+<br />

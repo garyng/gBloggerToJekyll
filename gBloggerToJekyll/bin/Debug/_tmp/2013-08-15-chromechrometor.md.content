@@ -1,0 +1,55 @@
+Tor 有专门给Firefox 的Add-on，但是却没有给Chrome的（找了没有，如果有的话就用呗！）<br />
+这里是在Chrome浏览器下配置TOR的教程（我用360Chorme xD）<br />
+1、下载TOR：<br />
+<a href="https://www.torproject.org/download/download-easy.html.en" title="https://www.torproject.org/download/download-easy.html.en">https://www.torproject.org/download/download-easy.html.en</a><br />
+2、然后运行下载回来的exe，直接解压就可以使用<br />
+<a href="http://lh3.ggpht.com/-EHR1NJnHUEU/UgzHmQHJ3lI/AAAAAAAAD5c/5mhW1W-KKCg/s1600-h/image%25255B5%25255D.png"><img alt="image" border="0" height="158" src="http://lh4.ggpht.com/-d2DCyOcfsSw/UgzHm3JIz-I/AAAAAAAAD5k/V4T77w0mQ_0/image_thumb%25255B1%25255D.png?imgmax=800" style="background-image: none; border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="352" /></a><br />
+<br />
+3、运行目录下的Start Tor Browser.exe<br />
+<a href="http://lh5.ggpht.com/-JSthHXh2AIc/UgzHnZlnoiI/AAAAAAAAD5s/BMx-gRiwk-c/s1600-h/image%25255B8%25255D.png"><img alt="image" border="0" height="143" src="http://lh4.ggpht.com/-e7hqSt8kp-g/UgzHoMCzCiI/AAAAAAAAD50/uf1r3gYQLp0/image_thumb%25255B2%25255D.png?imgmax=800" style="background-image: none; border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="321" /></a><br />
+<br />
+4、等待完毕<br />
+<a href="http://lh5.ggpht.com/-oe9t6MBNfWk/UgzHovKmQRI/AAAAAAAAD58/lb9bWIy9x28/s1600-h/1%25255B2%25255D.png"><img alt="1" border="0" height="411" src="http://lh6.ggpht.com/-YjNpdKrGZUc/UgzHpcf0IwI/AAAAAAAAD6E/n10cVve_LmA/1_thumb.png?imgmax=800" style="background-image: none; border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="1" width="358" /></a><br />
+<br />
+5、Connected To Tor Network<br />
+<a href="http://lh4.ggpht.com/-wT5utRT01Pw/UgzHp-Ws-lI/AAAAAAAAD6M/fRfvPmZ4E4s/s1600-h/2%25255B2%25255D.png"><img alt="2" border="0" height="415" src="http://lh4.ggpht.com/-hgugmSvbpjM/UgzHqYXKwJI/AAAAAAAAD6U/XdXDTByKHdc/2_thumb.png?imgmax=800" style="background-image: none; border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="2" width="358" /></a><br />
+<br />
+6、过后TOR会运行自带的TorBrowser，点击上方橙色按钮，再点击Add-On<br />
+<a href="http://lh3.ggpht.com/-fkxm-QHya3U/UgzHrO52WvI/AAAAAAAAD6c/IfCsIoCGZ94/s1600-h/3%25255B2%25255D.png"><img alt="3" border="0" height="494" src="http://lh5.ggpht.com/-Hsci4GHK5y8/UgzHrjLam0I/AAAAAAAAD6k/F2otpyjMPdg/3_thumb.png?imgmax=800" style="background-image: none; border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="3" width="708" /></a><br />
+<br />
+7、点击Extensions &gt; 在TorButton 那儿点击Option<br />
+<a href="http://lh5.ggpht.com/-6D1qJHGBt5k/UgzHsMhobbI/AAAAAAAAD6s/mraGCBUY_IQ/s1600-h/4%25255B2%25255D.png"><img alt="4" border="0" height="657" src="http://lh4.ggpht.com/-PQ9_5i71UQ0/UgzHtCcno1I/AAAAAAAAD60/jf2BdOGTFng/4_thumb.png?imgmax=800" style="background-image: none; border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="4" width="1006" /></a><br />
+<br />
+8、然后在Use Custom proxy settings的SOCKS host 几下Port (我的是9150)<br />
+然后点击Cancel<br />
+<a href="http://lh3.ggpht.com/-OwCSVyHacKI/UgzHtsCYrBI/AAAAAAAAD68/Iyc_BjpTORA/s1600-h/5%25255B2%25255D.png"><img alt="5" border="0" height="492" src="http://lh5.ggpht.com/-pqOCOhbkNlM/UgzHucD7wdI/AAAAAAAAD7E/u9qs8Kv6CW4/5_thumb.png?imgmax=800" style="background-image: none; border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="5" width="554" /></a><br />
+<br />
+9、去Google Chrome （或者其他Chrome 类浏览器），下载Proxy Switchy!<br />
+下载链接：<a href="https://chrome.google.com/webstore/detail/proxy-switchy/caehdcpeofiiigpdhbabniblemipncjj?hl=en" title="https://chrome.google.com/webstore/detail/proxy-switchy/caehdcpeofiiigpdhbabniblemipncjj?hl=en">https://chrome.google.com/webstore/detail/proxy-switchy/caehdcpeofiiigpdhbabniblemipncjj?hl=en</a><br />
+<a href="http://lh3.ggpht.com/-in9jih5wyPY/UgzHvM7e7lI/AAAAAAAAD7M/T-8JIcXQjXc/s1600-h/6%25255B2%25255D.png"><img alt="6" border="0" height="475" src="http://lh3.ggpht.com/-jhUPE6vkkdc/UgzHv4RTuSI/AAAAAAAAD7U/WjX-BDO_56E/6_thumb.png?imgmax=800" style="background-image: none; border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="6" width="978" /></a><br />
+<br />
+10、点击Install<br />
+<a href="http://lh6.ggpht.com/-7fipwL6S0mM/UgzHwbL4Z7I/AAAAAAAAD7c/aUqFnzlZ-H0/s1600-h/7%25255B2%25255D.png"><img alt="7" border="0" height="186" src="http://lh3.ggpht.com/-u8E679cUAhU/UgzHxO8qJWI/AAAAAAAAD7k/S_oNcw8uw5Q/7_thumb.png?imgmax=800" style="background-image: none; border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="7" width="368" /></a><br />
+<br />
+11、过后在弹出的Option Page那儿，<br />
+Profile Name 填入TOR<br />
+SOCKS Host 填入127.0.0.1<br />
+Port 填入之前记下的（我的是9150）<br />
+点击Save<br />
+如果你看不到这些选项，去掉勾选Use the same proxy server for all protocols<br />
+<a href="http://lh6.ggpht.com/-J1IPz30Zcsk/UgzHxh0zo9I/AAAAAAAAD7s/WugVUYaOvok/s1600-h/9%25255B2%25255D.png"><img alt="9" border="0" height="655" src="http://lh3.ggpht.com/-A3b3sC752I4/UgzHydx9YcI/AAAAAAAAD70/FrcCGpgCxGI/9_thumb.png?imgmax=800" style="background-image: none; border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="9" width="793" /></a><br />
+<br />
+12、然后来到Network 选项卡<br />
+勾选Quick Switch，选择Binary Switch<br />
+在Profile 1 选择[Direct Connection]<br />
+Profile 2 选择TOR<br />
+点击Save<br />
+<a href="http://lh5.ggpht.com/-4k9TUP4g2dc/UgzHyxydoWI/AAAAAAAAD78/2FAYSdLxF4s/s1600-h/10%25255B2%25255D.png"><img alt="10" border="0" height="512" src="http://lh5.ggpht.com/-1XtBdb1Ci4o/UgzHznnKUXI/AAAAAAAAD8E/Kr_Ml4mU2sg/10_thumb.png?imgmax=800" style="background-image: none; border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="10" width="845" /></a><br />
+<br />
+13、回到Chrome主界面后，可以直接点击Proxy Switchy! 的图标来激活TOR<br />
+<a href="http://lh4.ggpht.com/-yxCdpxYav0k/UgzH0D7_7oI/AAAAAAAAD8M/rZZA6baMUi8/s1600-h/11%25255B2%25255D.png"><img alt="11" border="0" height="39" src="http://lh6.ggpht.com/-99LSWV1yvZ0/UgzH0lF_uKI/AAAAAAAAD8U/lcNKqbKwouM/11_thumb.png?imgmax=800" style="background-image: none; border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="11" width="80" /></a><br />
+<br />
+14、你可以到<a href="https://check.torproject.org/" title="https://check.torproject.org/">https://check.torproject.org/</a> 来检查有没有设置成功<br />
+<a href="http://lh5.ggpht.com/-YhXVWrQQyPA/UgzH1Vzv1zI/AAAAAAAAD8c/wzLtoQAlRIU/s1600-h/12%25255B2%25255D.png"><img alt="12" border="0" height="589" src="http://lh4.ggpht.com/-0kOxqGRPOMc/UgzH1-JUVcI/AAAAAAAAD8k/2yzKT6fDn5E/12_thumb.png?imgmax=800" style="background-image: none; border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="12" width="1059" /></a><br />
+<br />
+PS:TOR速度有点慢..

@@ -1,0 +1,88 @@
+最近，笔者听到很多很多的人在问同样的问题：<br />
+<br />
+怎样放蓝字留言？<br />
+<br />
+其实步骤很简单：<br />
+<br />
+1、在留言或状态的格子哪儿打上：<span class="Apple-style-span" style="background-color: #edeff4; color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; line-height: 15px;">‎@@[0:[</span><span class="Apple-style-span" style="background-color: #edeff4; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; line-height: 15px;"><span class="Apple-style-span" style="color: red;"><b>ID号</b></span></span><span class="Apple-style-span" style="background-color: #edeff4; color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; line-height: 15px;">:0:</span><span class="Apple-style-span" style="background-color: #edeff4; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; line-height: 15px;"><span class="Apple-style-span" style="color: red;"><b>文字</b></span></span><span class="Apple-style-span" style="background-color: #edeff4; color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; line-height: 15px;">]]&nbsp;</span><br />
+<br />
+2、把ID号换成读者自己的：<br />
+<br />
+方法：<br />
+&nbsp; A、去到读者自己的个人主页<br />
+&nbsp; B、在URL栏上会看到类似的链接：<span class="Apple-style-span" style="background-color: #3d85c6; color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; line-height: 15px;">‎</span><span class="Apple-style-span" style="background-color: #9fc5e8;">http://www.facebook.com/profile.php?id=<span class="Apple-style-span" style="color: red;">一些数字</span></span><br />
+&nbsp; C、在<span class="Apple-style-span" style="background-color: #9fc5e8;">id=</span><span class="Apple-style-span" style="background-color: white;">后尾的数字就是所谓的ID号啦！</span><br />
+<span class="Apple-style-span" style="background-color: white;"><br /></span><br />
+<span class="Apple-style-span" style="background-color: white;">&nbsp; 可是有些人的并不是<span class="Apple-style-span" style="font-family: inherit;">ID号，而是像笔</span>者那样的：</span><span class="Apple-style-span" style="background-color: #9fc5e8;">http://www.facebook.com/ZhongBii</span><br />
+<span class="Apple-style-span" style="background-color: white;">&nbsp; 甭担心！</span><br />
+&nbsp; A、去到<span class="Apple-style-span" style="background-color: #edeff4; color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; line-height: 15px;"><a href="http://graph.facebook.com/">graph.facebook.com</a>/【用户名】</span><br />
+<span class="Apple-style-span" style="color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;"><span class="Apple-style-span" style="background-color: white; line-height: 15px;">&nbsp; 【用户名】即是</span></span><span class="Apple-style-span" style="background-color: #9fc5e8;">http://www.facebook.com/</span><span class="Apple-style-span" style="background-color: white;">过后的那些东东啦！</span><br />
+&nbsp; 例如笔者的就是：<span class="Apple-style-span" style="background-color: #edeff4; color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; line-height: 15px;"><a href="http://graph.facebook.com/Zhongbii">graph.facebook.com/Zhongbii</a></span><br />
+<span class="Apple-style-span" style="font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;"><span class="Apple-style-span" style="line-height: 15px;"><br /></span></span><br />
+<span class="Apple-style-span" style="font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;"><span class="Apple-style-span" style="line-height: 15px;">&nbsp; B、会刊到类似的信息：</span></span><br />
+<br />
+<pre style="white-space: pre-wrap; word-wrap: break-word;"><span class="Apple-style-span" style="background-color: #d0e0e3;">  {
+     "id": "<span class="Apple-style-span" style="color: red;"><b>100001049371211</b></span>",
+     "name": "\u9ec4\u4e2d\u67cf",
+     "first_name": "\u4e2d\u67cf",
+     "last_name": "\u9ec4",
+     "gender": "male",
+     "locale": "zh_CN"
+  }</span></pre>
+<pre style="white-space: pre-wrap; word-wrap: break-word;"><span class="Apple-style-span" style="background-color: #d0e0e3;">
+</span></pre>
+<pre style="white-space: pre-wrap; word-wrap: break-word;"><span class="Apple-style-span" style="font-family: Arial, Helvetica, sans-serif;">  在</span><span class="Apple-style-span" style="background-color: #d0e0e3; font-family: Arial, Helvetica, sans-serif;">"id":</span><span class="Apple-style-span" style="background-color: white;"><span class="Apple-style-span" style="font-family: Arial, Helvetica, sans-serif;">后面的那些数字便是</span><span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">ID</span><span class="Apple-style-span" style="font-family: Arial, Helvetica, sans-serif;">号了（记要拿双引号去掉！）</span></span><span class="Apple-style-span" style="background-color: white; font-family: Arial, Helvetica, sans-serif;">！</span></pre>
+<pre style="white-space: pre-wrap; word-wrap: break-word;"><span class="Apple-style-span" style="background-color: white; font-family: Arial, Helvetica, sans-serif;">
+</span></pre>
+<pre style="white-space: pre-wrap; word-wrap: break-word;"><span class="Apple-style-span" style="font-family: Arial, Helvetica, sans-serif;">3、过后把</span><span class="Apple-style-span" style="font-family: 'Times New Roman'; white-space: normal;"><span class="Apple-style-span" style="background-color: #edeff4; color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; line-height: 15px;">@@[0:[</span><span class="Apple-style-span" style="background-color: #edeff4; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; line-height: 15px;"><span class="Apple-style-span" style="color: red;"><b>ID号</b></span></span><span class="Apple-style-span" style="background-color: #edeff4; color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; line-height: 15px;">:0:</span><span class="Apple-style-span" style="background-color: #edeff4; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; line-height: 15px;"><span class="Apple-style-span" style="color: red;"><b>文字</b></span></span><span class="Apple-style-span" style="background-color: #edeff4; color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; line-height: 15px;">]]&nbsp;</span></span><span class="Apple-style-span" style="font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; line-height: 15px; white-space: normal;"><span class="Apple-style-span" style="color: #333333;">中的</span><span class="Apple-style-span" style="color: red; font-weight: bold;">文字 &nbsp;</span><span class="Apple-style-span">换成读者自己的留言就可以啦！</span></span></pre>
+<pre style="white-space: pre-wrap; word-wrap: break-word;"><span class="Apple-style-span" style="font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; line-height: 15px; white-space: normal;"><span class="Apple-style-span">
+</span></span></pre>
+<pre style="white-space: pre-wrap; word-wrap: break-word;"><span class="Apple-style-span" style="font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; line-height: 15px; white-space: normal;"><span class="Apple-style-span">注：留言中不可以有英文的冒号（:），但应该可以有中文的冒号（：）</span></span></pre>
+<pre style="white-space: pre-wrap; word-wrap: break-word;"><span class="Apple-style-span" style="font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; line-height: 15px; white-space: normal;"><span class="Apple-style-span">
+</span></span></pre>
+<pre style="word-wrap: break-word;"><span class="Apple-style-span" style="font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;"><span class="Apple-style-span" style="line-height: 15px; white-space: normal;">例如：</span></span></pre>
+<pre style="word-wrap: break-word;"><span class="Apple-style-span" style="font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;"><span class="Apple-style-span" style="line-height: 15px; white-space: normal;">笔者的ID号是</span></span><span class="Apple-style-span" style="background-color: #d0e0e3; color: red; white-space: pre-wrap;"><b>100001049371211</b></span></pre>
+<pre style="word-wrap: break-word;"><span class="Apple-style-span" style="font-family: Arial, Helvetica, sans-serif;"><span class="Apple-style-span" style="white-space: pre-wrap;">笔者想要留的言：测试</span></span></pre>
+<pre style="word-wrap: break-word;"><span class="Apple-style-span" style="font-family: Arial, Helvetica, sans-serif;"><span class="Apple-style-span" style="white-space: pre-wrap;">
+</span></span></pre>
+<pre style="word-wrap: break-word;"><span class="Apple-style-span" style="font-family: Arial, Helvetica, sans-serif;"><span class="Apple-style-span" style="white-space: pre-wrap;">就要打成：</span></span><span class="Apple-style-span" style="background-color: white; font-family: Arial, Helvetica, sans-serif;"><span class="Apple-style-span" style="white-space: normal;"><span class="Apple-style-span" style="line-height: 15px;">@@[0:[</span></span><span class="Apple-style-span" style="white-space: pre-wrap;"><b>100001049371211</b></span><span class="Apple-style-span" style="white-space: normal;"><span class="Apple-style-span" style="line-height: 15px;">:0:</span></span><span class="Apple-style-span" style="white-space: pre-wrap;">测试</span><span class="Apple-style-span" style="line-height: 15px; white-space: normal;">]]</span></span></pre>
+<pre style="white-space: pre-wrap; word-wrap: break-word;"><span class="Apple-style-span" style="background-color: white; font-family: Arial, Helvetica, sans-serif;">效果：</span></pre>
+<pre style="white-space: pre-wrap; word-wrap: break-word;"><span class="Apple-style-span" style="background-color: white; font-family: Arial, Helvetica, sans-serif;">
+</span></pre>
+<pre style="white-space: pre-wrap; word-wrap: break-word;"><span class="Apple-style-span" style="background-color: white; font-family: Arial, Helvetica, sans-serif;">在状态中：</span></pre>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-oNEe9CzSqPs/TsoI2dJ9_SI/AAAAAAAAAzU/hEPuurQPaCM/s1600/2011-11-21+16-10-18.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-oNEe9CzSqPs/TsoI2dJ9_SI/AAAAAAAAAzU/hEPuurQPaCM/s1600/2011-11-21+16-10-18.jpg" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-6bg-pgpR2Sk/TsoI25YV5TI/AAAAAAAAAzc/DeSDXr8rcWY/s1600/2011-11-21+16-11-09.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-6bg-pgpR2Sk/TsoI25YV5TI/AAAAAAAAAzc/DeSDXr8rcWY/s1600/2011-11-21+16-11-09.jpg" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-jwD1Grg-6xc/TsoI4AWHdlI/AAAAAAAAAzk/Lx1aQ9zXg5k/s1600/2011-11-21+16-11-28.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-jwD1Grg-6xc/TsoI4AWHdlI/AAAAAAAAAzk/Lx1aQ9zXg5k/s1600/2011-11-21+16-11-28.jpg" /></a></div>
+<br />
+<br />
+在留言中也可以哦！<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-KOMpB-00OnA/TsoI5MXpSxI/AAAAAAAAAzo/oMmyH_C1ko0/s1600/2011-11-21+16-12-05.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-KOMpB-00OnA/TsoI5MXpSxI/AAAAAAAAAzo/oMmyH_C1ko0/s1600/2011-11-21+16-12-05.jpg" /></a></div>
+<pre style="white-space: pre-wrap; word-wrap: break-word;"><span class="Apple-style-span" style="background-color: white; font-family: Arial, Helvetica, sans-serif;">
+</span></pre>
+<pre style="white-space: pre-wrap; word-wrap: break-word;"><span class="Apple-style-span" style="font-family: Arial, Helvetica, sans-serif;">
+</span></pre>
+<pre style="white-space: pre-wrap; word-wrap: break-word;"><span class="Apple-style-span" style="font-family: Arial, Helvetica, sans-serif;"><span class="Apple-style-span" style="font-family: 'Times New Roman'; white-space: normal;"><pre style="white-space: pre-wrap; word-wrap: break-word;"><span class="Apple-style-span" style="font-family: 'Times New Roman'; white-space: normal;"><span class="Apple-style-span" style="background-color: #edeff4; color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; line-height: 15px;">
+</span></span></pre>
+<pre style="white-space: pre-wrap; word-wrap: break-word;"><span class="Apple-style-span" style="font-family: 'Times New Roman'; white-space: normal;"><span class="Apple-style-span" style="background-color: white; color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; line-height: 15px;">4、</span></span></pre>
+<pre style="white-space: pre-wrap; word-wrap: break-word;"><span class="Apple-style-span" style="font-family: 'Times New Roman'; white-space: normal;"><span class="Apple-style-span" style="background-color: #edeff4; color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; line-height: 15px;">@@[0:[</span><span class="Apple-style-span" style="background-color: #edeff4; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; line-height: 15px;"><span class="Apple-style-span" style="color: red;"><b>ID号</b></span></span><span class="Apple-style-span" style="background-color: #edeff4; color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; line-height: 15px;">:0:</span><span class="Apple-style-span" style="background-color: #edeff4; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; line-height: 15px;"><span class="Apple-style-span" style="color: red;"><b>文字</b></span></span><span class="Apple-style-span" style="background-color: #edeff4; color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; line-height: 15px;">]] </span><span class="Apple-style-span" style="background-color: white; color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; line-height: 15px;">中的ID号也可以换成其他人的ID号哦！
+</span></span></pre>
+<pre style="white-space: pre-wrap; word-wrap: break-word;"><span class="Apple-style-span" style="font-family: 'Times New Roman'; white-space: normal;"><span class="Apple-style-span" style="background-color: white; color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; line-height: 15px;">
+</span></span></pre>
+<pre style="white-space: pre-wrap; word-wrap: break-word;"><span class="Apple-style-span" style="font-family: 'Times New Roman'; white-space: normal;"><span class="Apple-style-span" style="background-color: white; color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; line-height: 15px;">效果就是把人家TAG出来！</span></span></pre>
+</span></span></pre>
+<pre style="white-space: pre-wrap; word-wrap: break-word;"><span class="Apple-style-span" style="font-family: Arial, Helvetica, sans-serif;">
+</span></pre>
+<pre style="white-space: pre-wrap; word-wrap: break-word;"><span class="Apple-style-span" style="font-family: Arial, Helvetica, sans-serif;">
+</span></pre>
+<pre style="white-space: pre-wrap; word-wrap: break-word;"><span class="Apple-style-span" style="font-family: Arial, Helvetica, sans-serif;">好玩么？
+去炫炫吧！XD</span></pre>
+<pre style="white-space: pre-wrap; word-wrap: break-word;"><span class="Apple-style-span" style="background-color: white; font-family: Arial, Helvetica, sans-serif;">
+</span></pre>
+<pre style="white-space: pre-wrap; word-wrap: break-word;"><span class="Apple-style-span" style="background-color: white; font-family: Arial, Helvetica, sans-serif;">
+</span></pre>

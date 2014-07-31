@@ -1,0 +1,18 @@
+家里某架中国机（俗称“山寨机”）的screen lock pattern 忘了，折腾了一整个上午，才搞到factory reset。<br />
+刚开始发现Power button + Vol up 的菜单内竟然没有factory reset，然后不小心发现到了可以进fastboot mode。（Power button + home button）。<br />
+fastboot 然我想到了adb 和 fastboot 的 tools， 下载了（这边：<a href="http://www.mediafire.com/download/x6zgi5zga0fug0w/adb_fastboot.zip" title="http://www.mediafire.com/download/x6zgi5zga0fug0w/adb_fastboot.zip">http://www.mediafire.com/download/x6zgi5zga0fug0w/adb_fastboot.zip</a>），却不知道要怎么做（悲剧的中国机，啥教程都没有..）<br />
+结果因此折腾了N个小时..<br />
+只找到了适合的driver，下载地址：<br />
+<a href="http://www.mediafire.com/download/wdx8bhlpef3oj9w/SCI-android-usb-driver-jungo-v4.zip" title="http://www.mediafire.com/download/wdx8bhlpef3oj9w/SCI-android-usb-driver-jungo-v4.zip">http://www.mediafire.com/download/wdx8bhlpef3oj9w/SCI-android-usb-driver-jungo-v4.zip</a><br />
+最后，搜寻无果.. adb 因为没有开usb debugging mode 也不能用..<br />
+剩下fastboot了… 心血来潮打进了fastboot help，慢慢看自带的帮助文件..<br />
+突然发现到了这个：<br />
+<a href="http://lh3.ggpht.com/-PwfYNyX47BA/Ua7HHiWeWLI/AAAAAAAADbU/sreq2Nx2eBE/s1600-h/image%25255B2%25255D.png"><img alt="image" border="0" height="438" src="http://lh3.ggpht.com/-8nrTlBRSZXM/Ua7HJacn24I/AAAAAAAADbc/4jAjQr8CMkY/image_thumb.png?imgmax=800" style="background-image: none; border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="673" /></a><br />
+<br />
+这…这…不是factory reset 么？<br />
+兴奋的打入了fastboot –w<br />
+然后fastboot reboot<br />
+娃哈哈哈哈，成功了！<br />
+（对不起，没截到图，太兴奋了）<br />
+<br />
+特此留下这篇文章…造福人群 <img alt="Open-mouthed smile" class="wlEmoticon wlEmoticon-openmouthedsmile" src="http://lh4.ggpht.com/-cgW6JGzr8y8/Ua7HJkJTW0I/AAAAAAAADbg/9qLvW6MxmSI/wlEmoticon-openmouthedsmile%25255B2%25255D.png?imgmax=800" style="border-bottom-style: none; border-left-style: none; border-right-style: none; border-top-style: none;" />

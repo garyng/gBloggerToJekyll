@@ -1,0 +1,30 @@
+最近笔者又学了些新的关于VB6的知识，所以又优化了恶搞程序--“屏幕融化”<br />
+<br />
+目前的版本是2.0.2<br />
+<br />
+本程序的更改是<br />
+1、主程序体积变小了<br />
+2、少了一个文件--frmRestore.exe<br />
+3、添加了一个用于Slider控件的OCX文件--MSCOMCTL.OCX（有些电脑可能会少了这文件）<br />
+<br />
+<br />
+<a href="http://dl.dropbox.com/u/43619472/%E6%89%B9%E5%A4%84%E7%90%86/VB6/%E5%B1%8F%E5%B9%95%E8%9E%8D%E5%8C%96/%E5%B1%8F%E5%B9%95%E8%9E%8D%E5%8C%961.0.0.zip">屏幕融化1.0.0.zip</a><br />
+<a href="http://dl.dropbox.com/u/43619472/%E6%89%B9%E5%A4%84%E7%90%86/VB6/%E5%B1%8F%E5%B9%95%E8%9E%8D%E5%8C%96/%E5%B1%8F%E5%B9%95%E8%9E%8D%E5%8C%961.0.1.zip">屏幕融化1.0.1.zip</a><br />
+<a href="http://dl.dropbox.com/u/43619472/%E6%89%B9%E5%A4%84%E7%90%86/VB6/%E5%B1%8F%E5%B9%95%E8%9E%8D%E5%8C%96/%E5%B1%8F%E5%B9%95%E8%9E%8D%E5%8C%961.0.2.zip">屏幕融化1.0.2.zip</a><br />
+<a href="http://dl.dropbox.com/u/43619472/%E6%89%B9%E5%A4%84%E7%90%86/VB6/%E5%B1%8F%E5%B9%95%E8%9E%8D%E5%8C%96/%E5%B1%8F%E5%B9%95%E8%9E%8D%E5%8C%961.0.3.zip">屏幕融化1.0.3.zip</a><br />
+<a href="http://dl.dropbox.com/u/43619472/%E6%89%B9%E5%A4%84%E7%90%86/VB6/%E5%B1%8F%E5%B9%95%E8%9E%8D%E5%8C%96/%E5%B1%8F%E5%B9%95%E8%9E%8D%E5%8C%961.0.4.zip">屏幕融化1.0.4.zip</a><br />
+<a href="http://dl.dropbox.com/u/43619472/%E6%89%B9%E5%A4%84%E7%90%86/VB6/%E5%B1%8F%E5%B9%95%E8%9E%8D%E5%8C%96/%E5%B1%8F%E5%B9%95%E8%9E%8D%E5%8C%961.0.5.zip">屏幕融化1.0.5.zip</a><br />
+<a href="http://dl.dropbox.com/u/43619472/%E6%89%B9%E5%A4%84%E7%90%86/VB6/%E5%B1%8F%E5%B9%95%E8%9E%8D%E5%8C%96/%E5%B1%8F%E5%B9%95%E8%9E%8D%E5%8C%962.0.0.0.zip">屏幕融化Final版本.zip</a><br />
+<a href="http://dl.dropbox.com/u/43619472/%E6%89%B9%E5%A4%84%E7%90%86/VB6/%E5%B1%8F%E5%B9%95%E8%9E%8D%E5%8C%96/%E5%B1%8F%E5%B9%95%E8%9E%8D%E5%8C%96.zip">屏幕融化升级版.zip</a><br />
+<br />
+<span class="Apple-style-span" style="color: red;">注意：</span><br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-iU-wRZ5pbe8/TszySz0MGKI/AAAAAAAAA10/ZJm4irD436E/s1600/310299_324013817615949_100000220007056_1486349_1309034930_n.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><span class="Apple-style-span" style="color: red;"><img border="0" height="137" src="http://1.bp.blogspot.com/-iU-wRZ5pbe8/TszySz0MGKI/AAAAAAAAA10/ZJm4irD436E/s400/310299_324013817615949_100000220007056_1486349_1309034930_n.jpg" width="400" /></span></a></div>
+<span class="Apple-style-span" style="color: red;"><br /></span><br />
+<span class="Apple-style-span" style="color: red;">如果遇到此问题，必须运行RunThisFirst.bat文件！</span><br />
+<br />
+截图笔者就不给了啊～界面还是一样、操作也一样～<br />
+可以查看<a href="http://garyngzhongbo.blogspot.com/2011/11/200final.html">这里</a><br />
+<br />
+注：有些杀毒软件可能会报毒，但全都是误报！<br />
+VirusTotal的<a href="http://www.virustotal.com/file-scan/report.html?id=1be03775a4ad192a3530e6b9e961044c9b17b00c3100e3a25b0fe0a7ff98ac04-1322018559">扫描报告</a>

@@ -1,0 +1,32 @@
+<span style="font-family: Verdana;">最近有些网友一直需要下载 VB6 ，手上刚好有，抽空上载到的网盘</span><br />
+<span style="font-family: Verdana; font-size: small;"><strong>VB6 Enterprise Version Download Link :</strong></span><br />
+<a href="http://dl.dropbox.com/u/43619472/OtherSoft/Visual%20Basic%206.7z" title="http://dl.dropbox.com/u/43619472/OtherSoft/Visual%20Basic%206.7z"><span style="font-family: Verdana;">http://dl.dropbox.com/u/43619472/OtherSoft/Visual%20Basic%206.7z</span></a><br />
+<br />
+【序列号】<br />
+安装过程中会要求输入序列号，只要输入<span style="font-family: Verdana;">111-1111111</span>就可以了<br />
+<br />
+<br />
+<br />
+<span style="font-family: Verdana;">VB6 已经是微软十几年前的作品了，Windows XP 下安装能兼容，可是到了Windows Vista 以上，就有一大堆兼容问题了</span><br />
+<span style="font-family: Verdana;">以下是解决办法：</span><br />
+<span style="font-family: Verdana;">1、右击Setup.exe，选择Properties</span><br />
+<a href="http://lh4.ggpht.com/-LVC9_l4LUmE/T64vJHidW6I/AAAAAAAABe0/0FpGcsRUHx0/s1600-h/image7.png"><img alt="image" border="0" height="603" src="http://lh4.ggpht.com/-qZGMm2UccJw/T64vK-FuCgI/AAAAAAAABe8/71nJiXFIMrQ/image_thumb3.png?imgmax=800" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="844" /></a><br />
+<br />
+2、点击Compatibility 选项卡，勾上Run this program in compatibility mode for:<br />
+选者Windows XP<br />
+<a href="http://lh3.ggpht.com/-EZe46ISNXgM/T64vL9YVayI/AAAAAAAABfE/ZSBdh1yJCgU/s1600-h/image13.png"><img alt="image" border="0" height="519" src="http://lh4.ggpht.com/-KlgfvTo4qZ8/T64vNbPQHTI/AAAAAAAABfM/qFfjMAlGhK0/image_thumb7.png?imgmax=800" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="381" /></a><br />
+<br />
+4、运行安装程序<br />
+5、选择Run Program<br />
+<a href="http://lh3.ggpht.com/-xrL9-zsPcfE/T64vOIncNpI/AAAAAAAABfU/2vVniXEvR-A/s1600-h/image%25255B4%25255D.png"><img alt="image" border="0" height="287" src="http://lh5.ggpht.com/-t_eAA_BgH64/T64vPYYB-II/AAAAAAAABfc/tae8oYd6jrM/image_thumb%25255B2%25255D.png?imgmax=800" style="background-image: none; border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="606" /></a><br />
+<br />
+大功告成!<br />
+【Windows Vista 以上开启Aero功效后拖动控件会卡】<br />
+解决方案：<br />
+1、右击主程序：VB6.exe，选择Properties<br />
+<a href="http://lh4.ggpht.com/-vLcIyjmOYjI/T64vQ29mvFI/AAAAAAAABfk/4aqT6S3Wf5w/s1600-h/image%25255B14%25255D.png"><img alt="image" border="0" height="603" src="http://lh3.ggpht.com/-Tbvk2xtFtl8/T64vSPBEWZI/AAAAAAAABfs/pdVKyJjQvh4/image_thumb%25255B6%25255D.png?imgmax=800" style="background-image: none; border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="844" /></a><br />
+<br />
+2、选择Compatibility 选项，勾上Disable visual theme<br />
+<a href="http://lh4.ggpht.com/-KSnJAa1ZD7k/T64vTcDs-oI/AAAAAAAABf0/SJLfSZLCfHQ/s1600-h/image%25255B18%25255D.png"><img alt="image" border="0" height="519" src="http://lh5.ggpht.com/-M_QIaL3ducQ/T64vUQVNSyI/AAAAAAAABf8/FgY76kz_FIY/image_thumb%25255B8%25255D.png?imgmax=800" style="background-image: none; border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="381" /></a><br />
+<br />
+3、大功告成！

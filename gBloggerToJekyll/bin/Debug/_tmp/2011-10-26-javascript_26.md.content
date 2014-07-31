@@ -1,0 +1,19 @@
+这个其实笔者很久以前就发布过一个影片，<br />
+今天整理时有不小心看到了，<br />
+于是，<br />
+觉得蛮好玩的，<br />
+就把它发出来咯～<br />
+<br />
+Javascript代码：<span class="Apple-style-span" style="background-color: cyan;">javascript: document.body.contentEditable = 'true'; document.designMode = 'on'; void 0</span><br />
+<span class="Apple-style-span" style="background-color: cyan;"><br /></span><br />
+<span class="Apple-style-span" style="background-color: white;">使用方法：</span><br />
+<span class="Apple-style-span" style="background-color: white;">1、直接把代码贴在URL栏上！</span><br />
+<span class="Apple-style-span" style="color: red;">注：有些浏览器会把代码前的"Javascript:"去除，必需手动添加！</span><br />
+<span class="Apple-style-span" style="color: red;"><br /></span><br />
+2、大大力地按下键盘上的Enter键吧！！<br />
+<br />
+3、可以随意编辑咯～<br />
+<span class="Apple-style-span" style="color: red;"><br /></span><br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-dkwf6Gb8esw/TqeWls7zZ7I/AAAAAAAAAWQ/ccbz9h2pElk/s1600/f.gif" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-dkwf6Gb8esw/TqeWls7zZ7I/AAAAAAAAAWQ/ccbz9h2pElk/s1600/f.gif" /></a></div>
+<span class="Apple-style-span" style="color: red;"><br /></span>

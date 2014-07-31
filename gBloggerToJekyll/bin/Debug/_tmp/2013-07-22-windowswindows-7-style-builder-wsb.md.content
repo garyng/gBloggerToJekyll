@@ -1,0 +1,12 @@
+搞了一整天出来的结果。<br />
+<br />
+Windows 7 Style Builder 下载地址：<a href="http://www.mediafire.com/download/64fai8a34bhjjet/Windows_7_Style_Builder_2.1.520.125_DeGun_TPB_2k11.7z" target="_blank">MediaFire</a>&nbsp; &nbsp;<a href="https://mega.co.nz/#!yQRTSLST!K83ho2bYIxEdTCb_dOJmpWZ5VtJcUbXVRxBeXWeU848" target="_blank">MEGA</a><br />有用的论坛资源：<br />
+<a href="http://bbs.pchdc.com/forum-90-1.html" target="_blank">Windows 7 美化论坛</a><br />
+<a href="http://vistastylebuilder.com/forum/" target="_blank">Visual Style Builder 官方论坛</a><br />
+<br />
+一些有用的路径<br />
+<br />
+<blockquote>
+Start Menu - Right Panel &amp; JumpList<br />[Glowing]<br />Start Menu &gt; Menus &gt; Aero &gt; PlaceList:ListView<br />Start Menu - Right Panel<br />[Text]<br />{Normal}<br />Start Menu &gt; Panels &gt; Aero &gt; Top &gt; ProgramsList<br />{Extended}<br />Start Menu &gt; Panels &gt; Aero &gt; Top &gt; ProgramsListExtended<br /><br />Taskbar Preview Panel<br />[Title]<br />{Text &amp; Glow}<br />Taskbar &amp; System Tray &gt; TaskBand &gt; Aero &gt; TaskBandExtendedUI &gt; Horizontal &gt; Thumbnails &amp; Controls &gt; Title<br /><br />DWM Windows<br />[Glow] - Change Opacity<br />Windows and Caption Buttons &gt; Aero &gt; Dwm Window &gt; Frames &gt; Normal &gt; Top<br /><br />What to add for Glowing properties:<br />TEXTGLOW:BOOL<br />GLOWINTENSITY:INT<br />TEXTGLOWSIZE:INT<br />GLOWCOLOR:COLOR</blockquote>
+<div>
+<br /></div>

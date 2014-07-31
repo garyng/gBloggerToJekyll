@@ -1,0 +1,22 @@
+最近发现到的强大功能——那就是在Visual Studio 内一次性编辑很多行。<br />
+秘诀是——按下ALT键！<br />
+<br />
+用滑鼠直接highlight多行的时候，是这样的：<br />
+<br />&nbsp;<a href="http://lh4.ggpht.com/-OejY7GFr3Z4/Uanm6opsBeI/AAAAAAAADZs/7Mab-Hc0ZPg/s1600-h/image%25255B6%25255D.png"><img alt="image" border="0" height="152" src="http://lh6.ggpht.com/-V7VTbyO1BRM/Uanm7KRghcI/AAAAAAAADZ0/b_uUBfYt5gA/image_thumb%25255B2%25255D.png?imgmax=800" style="border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline;" title="image" width="293" /></a> <br />
+<br />
+他会直接连前面那些空格部分也一起highlight了。<br />
+要怎么样才能只选择那些有代码的呢？<br />
+<strong>按下ALT键！</strong><br />
+在用mouse highlight的时候，按下alt键。<br />
+<a href="http://lh5.ggpht.com/-P48Yo9woZjU/Uanm7WhGwpI/AAAAAAAADZ8/2Iv1kVTTDEY/s1600-h/image%25255B9%25255D.png"><img alt="image" border="0" height="152" src="http://lh6.ggpht.com/-AwEBQcHKGcM/Uanm8CowVTI/AAAAAAAADaE/7CxSFjWhYoc/image_thumb%25255B3%25255D.png?imgmax=800" style="border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline;" title="image" width="293" /></a> <br />
+就是这样！<br />
+<br />
+那要如何一次性编辑多行呢？<br />
+比如说，我要在上述代码内的前头加入“Static”，变成这样：<br /><a href="http://lh4.ggpht.com/-ObcE89EhAkI/Uanm8qZUGrI/AAAAAAAADaM/y6tAcFDAlsU/s1600-h/image%25255B12%25255D.png"><img alt="image" border="0" height="137" src="http://lh4.ggpht.com/-9Y9m2_ycobo/Uanm9CNWQxI/AAAAAAAADaU/UESI3rAmpOM/image_thumb%25255B4%25255D.png?imgmax=800" style="border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline;" title="image" width="330" /></a> <br />
+但是我却不想一行一行的打（当然你可以打了然后copy &amp; paste）<br />
+这是你就可以多行选择代码前面的部分：<br />
+<a href="http://lh6.ggpht.com/-BvBC9D7xTug/Uanm9lCmxEI/AAAAAAAADac/4xW_pNChH8E/s1600-h/image%25255B15%25255D.png"><img alt="image" border="0" height="127" src="http://lh3.ggpht.com/-lCVDAMP5QqU/Uanm-RT8x5I/AAAAAAAADak/HfYo6yct_XA/image_thumb%25255B5%25255D.png?imgmax=800" style="border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline;" title="image" width="319" /></a> <br />
+然后直接输入“Static”就可以啦！<br />
+<a href="http://lh3.ggpht.com/-i__C8r7Ej0Q/Uanm-9Gq8eI/AAAAAAAADas/CUMgqMWd370/s1600-h/image%25255B18%25255D.png"><img alt="image" border="0" height="123" src="http://lh4.ggpht.com/-H4Fx59PEXuU/Uanm_tTAZyI/AAAAAAAADa0/2AVLzCfqGp0/image_thumb%25255B6%25255D.png?imgmax=800" style="border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline;" title="image" width="279" /></a> <br />
+完成！<br />
+<a href="http://lh4.ggpht.com/-5iMb42Kw5Sk/UannAfLZGxI/AAAAAAAADa8/fJhKl3xJDC0/s1600-h/image%25255B21%25255D.png"><img alt="image" border="0" height="123" src="http://lh5.ggpht.com/-i62CYooRJdY/UannBEVrLrI/AAAAAAAADbE/FeS6OED6Rno/image_thumb%25255B7%25255D.png?imgmax=800" style="border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline;" title="image" width="279" /></a>

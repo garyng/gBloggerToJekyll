@@ -1,0 +1,236 @@
+<br />
+<div class="style3">
+<br /></div>
+<div class="style3">
+<span class="style21">* CTRL+C
+(Copy)</span><br />
+<span class="style21">* CTRL+X (Cut)</span><br />
+<span class="style21">* CTRL+V (Paste)</span><br />
+<span class="style21">* CTRL+Z (Undo)</span><br />
+<span class="style21">* DELETE (Delete)</span><br />
+<span class="style21"></span><br />
+<a name='more'></a><span class="style21"><br /></span><br />
+<span class="style21">* SHIFT+DELETE (Delete the selected item permanently
+without placing the item in the Recycle Bin)</span><br />
+<span class="style21">* CTRL while dragging an item (Copy the selected item)</span><br />
+<span class="style21">* CTRL+SHIFT while dragging an item (Create a shortcut to
+the selected item)</span><br />
+<span class="style21">* F2 key (Rename the selected item)</span><br />
+<span class="style21">* CTRL+RIGHT ARROW (Move the insertion point to the
+beginning of the next word)</span><br />
+<span class="style21">* CTRL+LEFT ARROW (Move the insertion point to the
+beginning of the previous word)</span><br />
+<span class="style21">* CTRL+DOWN ARROW (Move the insertion point to the
+beginning of the next paragraph)</span><br />
+<span class="style21">* CTRL+UP ARROW (Move the insertion point to the beginning
+of the previous paragraph)</span><br />
+<span class="style21">* CTRL+SHIFT with any of the arrow keys (Highlight a block
+of text)</span><br />
+<span class="style21">* SHIFT with any of the arrow keys (Select more than one
+item in a window or on the desktop, or select text in &nbsp;a document)</span><br />
+<span class="style21">* CTRL+A (Select all)</span><br />
+<span class="style21">* F3 key (Search for a file or a folder)</span><br />
+<span class="style21">* ALT+ENTER (View the properties for the selected item)</span><br />
+<span class="style21">* ALT+F4 (Close the active item, or quit the active
+program)</span><br />
+<span class="style21">* ALT+ENTER (Display the properties of the selected object)</span><br />
+<span class="style21">* ALT+SPACEBAR (Open the shortcut menu for the active
+window)</span><br />
+<span class="style21">* CTRL+F4 (Close the active document in programs that
+enable you to have multiple documents open simultaneously)</span><br />
+<span class="style21">* ALT+TAB (Switch between the open items)</span><br />
+<span class="style21">* ALT+ESC (Cycle through items in the order that they had
+been opened)</span><br />
+<span class="style21">* F6 key (Cycle through the screen elements in a window or
+on the desktop)</span><br />
+<span class="style21">* F4 key (Display the Address bar list in My Computer or
+Windows Explorer)</span><br />
+<span class="style21">* SHIFT+F10 (Display the shortcut menu for the selected
+item)</span><br />
+<span class="style21">* ALT+SPACEBAR (Display the System menu for the active
+window)</span><br />
+<span class="style21">* CTRL+ESC (Display the Start menu)</span><br />
+<span class="style21">* ALT+Underlined letter in a menu name (Display the
+corresponding menu)</span><br />
+<span class="style21">* Underlined letter in a command name on an open menu
+(Perform the corresponding command)</span><br />
+<span class="style21">* F10 key (Activate the menu bar in the active program)</span><br />
+<span class="style21">* RIGHT ARROW (Open the next menu to the right, or open a
+submenu)</span><br />
+<span class="style21">* LEFT ARROW (Open the next menu to the left, or close a
+submenu)</span><br />
+<span class="style21">* F5 key (Update the active window)</span><br />
+<span class="style21">* BACKSPACE (View the folder one level up in My Computer or
+Windows Explorer)</span><br />
+<span class="style21">* ESC (Cancel the current task)</span><br />
+<span class="style21">* SHIFT when you insert a CD-ROM into the CD-ROM drive
+(Prevent the CD-ROM from automatically &nbsp;playing)</span><br />
+<span class="style21">* CTRL+SHIFT+ESC (Open Task Manager)</span></div>
+<div class="style2">
+<br />
+<u><b>
+Dialog box keyboard shortcuts</b></u><br />
+If you press SHIFT+F8 in extended selection list boxes, you enable extended
+selection mode. In this mode, you can use an arrow key to move a cursor without
+changing the selection. You can press CTRL+SPACEBAR or SHIFT+SPACEBAR to adjust
+the selection. To cancel extended selection mode, press SHIFT+F8 again.
+Extended selection mode cancels itself when you move the focus to another
+control.</div>
+<div class="style2">
+* CTRL+TAB (Move forward through the tabs)<br />
+* CTRL+SHIFT+TAB (Move backward through the tabs)<br />
+* TAB (Move forward through the options)<br />
+* SHIFT+TAB (Move backward through the options)<br />
+* ALT+Underlined letter (Perform the corresponding command or select the
+corresponding option)<br />
+* ENTER (Perform the command for the active option or button)<br />
+* SPACEBAR (Select or clear the check box if the active option is a check box)<br />
+* Arrow keys (Select a button if the active option is a group of option
+buttons)<br />
+* F1 key (Display Help)<br />
+* F4 key (Display the items in the active list)<br />
+* BACKSPACE (Open a folder one level up if a folder is selected in the Save As
+or Open dialog box) </div>
+<div class="style2">
+<br />
+<u><b>
+Microsoft natural keyboard shortcuts</b></u></div>
+<div class="style2">
+* Windows Logo (Display or hide the Start menu)<br />
+* Windows Logo+BREAK (Display the System Properties dialog box)<br />
+* Windows Logo+D (Display the desktop)<br />
+* Windows Logo+M (Minimize all of the windows)<br />
+* Windows Logo+SHIFT+M (Restore the minimized windows)<br />
+* Windows Logo+E (Open My Computer)<br />
+* Windows Logo+F (Search for a file or a folder)<br />
+* CTRL+Windows Logo+F (Search for computers)<br />
+* Windows Logo+F1 (Display Windows Help)<br />
+* Windows Logo+ L (Lock the keyboard)<br />
+* Windows Logo+R (Open the Run dialog box)<br />
+* Windows Logo+U (Open Utility Manager)</div>
+<div class="style2">
+<br /></div>
+<div class="style2">
+<u><b>
+Accessibility keyboard shortcuts</b></u></div>
+<div class="style2">
+* Right SHIFT for eight seconds (Switch FilterKeys either on or
+off)<br />
+* Left ALT+left SHIFT+PRINT SCREEN (Switch High Contrast either on or off)<br />
+* Left ALT+left SHIFT+NUM LOCK (Switch the MouseKeys either on or off)<br />
+* SHIFT five times (Switch the StickyKeys either on or off)<br />
+* NUM LOCK for five seconds (Switch the ToggleKeys either on or off)<br />
+* Windows Logo +U (Open Utility Manager)</div>
+<div class="style2">
+<br />
+<u><b>
+Windows Explorer keyboard shortcuts</b></u></div>
+<div class="style2">
+* END (Display the bottom of the active window)<br />
+* HOME (Display the top of the active window)<br />
+* NUM LOCK+Asterisk sign (*) (Display all of the subfolders that are under the
+selected folder)<br />
+* NUM LOCK+Plus sign (+) (Display the contents of the selected folder)<br />
+* NUM LOCK+Minus sign (-) (Collapse the selected folder)<br />
+* LEFT ARROW (Collapse the current selection if it is expanded, or select the
+parent folder)<br />
+* RIGHT ARROW (Display the current selection if it is collapsed, or select the
+first subfolder)</div>
+<div class="style2">
+<br />
+<b><u>
+Shortcut keys for Character Map</u></b><br />
+After you double-click a character on the grid of characters, you can move
+through the grid by using the keyboard shortcuts:</div>
+<div class="style2">
+* RIGHT ARROW (Move to the right or to the beginning of the
+next line)<br />
+* LEFT ARROW (Move to the left or to the end of the previous line)<br />
+* UP ARROW (Move up one row)<br />
+* DOWN ARROW (Move down one row)<br />
+* PAGE UP (Move up one screen at a time)<br />
+* PAGE DOWN (Move down one screen at a time)<br />
+* HOME (Move to the beginning of the line)<br />
+* END (Move to the end of the line)<br />
+* CTRL+HOME (Move to the first character)<br />
+* CTRL+END (Move to the last character)<br />
+* SPACEBAR (Switch between Enlarged and Normal mode when a character is
+selected)</div>
+<div class="style2">
+<br />
+<b><u>
+Microsoft Management Console (MMC) main window keyboard shortcuts</u></b></div>
+<div class="style2">
+* CTRL+O (Open a saved console)<br />
+* CTRL+N (Open a new console)<br />
+* CTRL+S (Save the open console)<br />
+* CTRL+M (Add or remove a console item)<br />
+* CTRL+W (Open a new window)<br />
+* F5 key (Update the content of all console windows)<br />
+* ALT+SPACEBAR (Display the MMC window menu)<br />
+* ALT+F4 (Close the console)<br />
+* ALT+A (Display the Action menu)<br />
+* ALT+V (Display the View menu)<br />
+* ALT+F (Display the File menu)<br />
+* ALT+O (Display the Favorites menu)</div>
+<div class="style2">
+<br />
+<b><u>
+MMC console window keyboard shortcuts</u></b></div>
+<div class="style2">
+* CTRL+P (Print the current page or active pane)<br />
+* ALT+Minus sign (-) (Display the window menu for the active console window)<br />
+* SHIFT+F10 (Display the Action shortcut menu for the selected item)<br />
+* F1 key (Open the Help topic, if any, for the selected item)<br />
+* F5 key (Update the content of all console windows)<br />
+* CTRL+F10 (Maximize the active console window)<br />
+* CTRL+F5 (Restore the active console window)<br />
+* ALT+ENTER (Display the Properties dialog box, if any, for the selected item)<br />
+* F2 key (Rename the selected item)<br />
+* CTRL+F4 (Close the active console window. When a console has only one console
+window, this shortcut closes the console)</div>
+<div class="style2">
+<br />
+<b><u>
+Remote desktop connection navigation</u></b></div>
+<div class="style2">
+* CTRL+ALT+END (Open the Microsoft Windows NT Security dialog
+box)<br />
+* ALT+PAGE UP (Switch between programs from left to right)<br />
+* ALT+PAGE DOWN (Switch between programs from right to left)<br />
+* ALT+INSERT (Cycle through the programs in most recently used order)<br />
+* ALT+HOME (Display the Start menu)<br />
+* CTRL+ALT+BREAK (Switch the client computer between a window and a full
+screen)<br />
+* ALT+DELETE (Display the Windows menu)<br />
+* CTRL+ALT+Minus sign (-) (Place a snapshot of the entire client window area on
+the Terminal server clipboard and provide the same functionality as pressing
+ALT+PRINT SCREEN on a local computer.)<br />
+* CTRL+ALT+Plus sign (+) (Place a snapshot of the active window in the client
+on the Terminal server clipboard and provide the same functionality as pressing
+PRINT SCREEN on a local computer.)</div>
+<div class="style2">
+<br />
+<b><u>
+Microsoft Internet Explorer navigation</u></b></div>
+<div class="style2">
+* CTRL+B (Open the Organize Favorites dialog box)<br />
+* CTRL+E (Open the Search bar)<br />
+* CTRL+F (Start the Find utility)<br />
+* CTRL+H (Open the History bar)<br />
+* CTRL+I (Open the Favorites bar)<br />
+* CTRL+L (Open the Open dialog box)<br />
+* CTRL+N (Start another instance of the browser with the same Web address)<br />
+* CTRL+O (Open the Open dialog box, the same as CTRL+L)<br />
+* CTRL+P (Open the Print dialog box)<br />
+* CTRL+R (Update the current Web page)<br />
+* CTRL+W (Close the current window)</div>
+<div class="style2">
+<br />
+<b><u>
+Other information</u></b></div>
+<div class="style2">
+* Some keyboard shortcuts may not work if StickyKeys is turned
+on in Accessibility Options.<br />
+* Some of the Terminal Services client shortcuts that are similar to the shortcuts
+in Remote Desktop Sharing are not available when you use&nbsp;</div>

@@ -1,0 +1,251 @@
+现在进入灰常好玩的地方——我们开始写代码！（这让我想起——【<a href="http://garyngzhongbo.blogspot.com/2011/12/blog-post.html" target="_blank">题外话】一首诗歌-写代码</a>）<br />
+<br />
+<h1 align="center">【如何显示代码编辑器】</h1>如果你忘了——点击form，按下F7<br />
+或者是右键点击form &gt; 点击View Code<br />
+<a href="http://lh6.ggpht.com/-tmavjX9GcKw/UhnmIC40cQI/AAAAAAAAEGg/XOA-wuPkysg/s1600-h/image8.png"><img alt="image" border="0" height="166" src="http://lh6.ggpht.com/-ZWMAv4z_Yc0/UhnmIR3LneI/AAAAAAAAEGo/qDDMk5mgiOk/image_thumb2.png?imgmax=800" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="314" /></a><br />
+就会有这个了：<br />
+<a href="http://lh5.ggpht.com/-1u-rjvx1yDk/UhnmJG6HNNI/AAAAAAAAEGw/BjEPufUaBNg/s1600-h/image5.png"><img alt="image" border="0" height="448" src="http://lh4.ggpht.com/-00cpJhcY858/UhnmJtaIEPI/AAAAAAAAEG4/WdMXAl3VKqs/image_thumb1.png?imgmax=800" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="544" /></a><br />
+<br />
+<h1 align="center">【基本设置】</h1><div align="left">先不谈代码，往form添加一个新的button，然后更改text 为 "Click Me!" </div><div align="left"><a href="http://lh4.ggpht.com/-HWmRw5szKfU/UhnmKFoG3UI/AAAAAAAAEHA/aVErmflHuW0/s1600-h/image11.png"><img alt="image" border="0" height="359" src="http://lh6.ggpht.com/-30-XSG6ubN8/UhnmKqT2lmI/AAAAAAAAEHI/ZXYLf3hxCRI/image_thumb3.png?imgmax=800" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="269" /></a></div><h1 align="center">【初探Function】</h1><div align="left">双击button，你会看到在原本的代码上加了新的代码：</div><div align="left"><a href="http://lh5.ggpht.com/-nEHaT3ostSI/UhnmLE5zvPI/AAAAAAAAEHQ/fwxB-rcN-Oc/s1600-h/image%25255B2%25255D.png"><img alt="image" border="0" height="443" src="http://lh3.ggpht.com/-oAx_rXkiIQc/UhnmLgVP2uI/AAAAAAAAEHY/vKPGnw7t2tY/image_thumb.png?imgmax=800" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="597" /></a></div><pre>&nbsp;</pre><pre><span style="font-family: Calibri;">这就是一个标准的function （其实是个event的function，先别管这些）</span></pre><pre><span style="font-family: Calibri;">private、void 等等这些东西先别管，免得混淆了（你只要知道这是一个function就就对了）</span></pre><pre><span style="font-family: Calibri;">我们来看看button1_click，很明显吧？</span></pre><pre><span style="font-family: Calibri;">就是button1 被click 的时候，这个function就会被运行，至于括弧里面的是参数</span></pre><pre><span style="font-family: Calibri;">运行？运行什么？就是运行在花括号内{}的代码！</span></pre><pre><span style="font-family: Calibri;"></span>&nbsp;</pre><br />
+<h1 align="center">【初探Intellisense】</h1><br />
+<div align="left">消息框的英文是啥？</div><br />
+<div align="left">Message Box！ 所以要显示message box 就必须呼叫message box！</div><br />
+<div align="left">于是兴致勃勃的打下message box</div><br />
+<div align="left">咦？等等，VS跳出来的这东西是啥？</div><br />
+<div align="left"><a href="http://lh5.ggpht.com/-i1-I1uhl6cc/UhnmMQ9ecII/AAAAAAAAEHg/1kvBwffurVg/s1600-h/image%25255B5%25255D.png"><img alt="image" border="0" height="245" src="http://lh3.ggpht.com/-L4qBNgKkTgA/UhnmM8DK4FI/AAAAAAAAEHo/X-0vEyv9GgQ/image_thumb%25255B1%25255D.png?imgmax=800" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="416" /></a></div><br />
+这就是Intellisense，华文叫啥？我不知道！<br />
+<br />
+总之它是auto-complete的好帮手<br />
+<br />
+看到VS帮你focus在 MessageBox上了么？直接按下Enter键，它就会帮你打好了！（快吧！）<br />
+<br />
+<a href="http://lh6.ggpht.com/-1S1eDazlq0I/UhnmNWWHaJI/AAAAAAAAEHw/V1bkpLGReKU/s1600-h/image%25255B8%25255D.png"><img alt="image" border="0" height="158" src="http://lh4.ggpht.com/-fSnJHNCm23s/UhnmN4ujU8I/AAAAAAAAEH4/vrAxcLGEtUo/image_thumb%25255B2%25255D.png?imgmax=800" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="477" /></a><br />
+<br />
+<br />
+<br />
+<h1 align="center">【显示MessageBox】</h1><br />
+OK，现在我们有MessageBox了，要咋才能跳出一个框框？<br />
+<br />
+我：显示的英文叫啥？<br />
+<br />
+你：Show！<br />
+<br />
+我：所以显示MessageBox叫啥？<br />
+<br />
+你：Show MessageBox！<br />
+<br />
+我：我汗！<br />
+<br />
+好啦好啦，对了差不对一半了<br />
+<br />
+正确的是MessageBox.Show，因为要show的是MessageBox ，MessageBox为主，show为副，所以就MessageBox.Show啦！<br />
+<br />
+看到了没？可爱的Intellisense又出来了，猛打enter！<br />
+<br />
+<a href="http://lh4.ggpht.com/-80uPKnf6QJk/UhnmOTXJNzI/AAAAAAAAEIA/RE0LOsKNqNQ/s1600-h/image%25255B11%25255D.png"><img alt="image" border="0" height="128" src="http://lh4.ggpht.com/--BKY2e1FN4I/UhnmPPoaaJI/AAAAAAAAEII/0iVzVkJLYDs/image_thumb%25255B3%25255D.png?imgmax=800" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="270" /></a><br />
+<br />
+<br />
+<br />
+你：等等！我要显示的字串放哪里啊？<br />
+<br />
+恩..这问题问得好！<br />
+<br />
+之前已经打了MessageBox.Show对吧：<br />
+<br />
+<a href="http://lh3.ggpht.com/-0-8hG1Id3LA/UhnmPSHIxXI/AAAAAAAAEIQ/72zaEXFtycY/s1600-h/image%25255B14%25255D.png"><img alt="image" border="0" height="107" src="http://lh5.ggpht.com/-tjl_qGElvgk/UhnmP0_Mh8I/AAAAAAAAEIY/rrt20lYPW8w/image_thumb%25255B4%25255D.png?imgmax=800" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="337" /></a><br />
+<br />
+<br />
+<br />
+就如function的括弧一样，在打下一个括弧<br />
+<br />
+然后Intellisense又出来了！<br />
+<br />
+<a href="http://lh4.ggpht.com/-Gumi0MAfZG8/UhnmQVBNwoI/AAAAAAAAEIg/p_4zVaRakpY/s1600-h/image%25255B17%25255D.png"><img alt="image" border="0" height="92" src="http://lh3.ggpht.com/-HbyblNVg3Kc/UhnmRCjdB4I/AAAAAAAAEIo/Ir7o1OhhFYQ/image_thumb%25255B5%25255D.png?imgmax=800" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="450" /></a><br />
+<br />
+<br />
+<br />
+System.Windows.Forms.DialogResult MessageBox.Show(string text)<br />
+<br />
+string text是啥？<br />
+<br />
+就是一个为类型为string（顾名思义就是字串啦！）的变量text！<br />
+<br />
+你：所以呢？<br />
+<br />
+我：汗！那么明显了看不出来么..<br />
+<br />
+就是把要显示的字串放在括弧之间啦！<br />
+<br />
+然后你又兴致勃勃地打入MessageBox.Show(Hello,World!)<br />
+<br />
+接着VS就帮你画了个很漂亮的波浪线给你：<br />
+<br />
+<a href="http://lh3.ggpht.com/-dsjuT9maBXA/UhnmRT4U1HI/AAAAAAAAEIw/ZfyOfV9NyWM/s1600-h/image%25255B20%25255D.png"><img alt="image" border="0" height="101" src="http://lh6.ggpht.com/-TfEKhcMDC-U/UhnmSE2kNrI/AAAAAAAAEI4/L545qPFuRk0/image_thumb%25255B6%25255D.png?imgmax=800" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="413" /></a><br />
+<br />
+<br />
+<br />
+你：这是神马状况？是神马状况？你说啊你说啊！<br />
+<br />
+为什么会有红色波浪线？因为VS把Hello,World!当成是一个代码了，然后它很努力的往他的脑袋搜索Hello,World!代表着什么，N秒后发现到脑袋内竟然没有这个东东，于是弱弱的画了波浪线给你（很像老师批改考卷吧？）<br />
+<br />
+你：说重点！<br />
+<br />
+好好好，记住了：所有的非代码（就是不要VS往脑里搜的，这里是指字串，string），都要加上开关引号——""（如果你不知道开关引号是啥：就是在Enter旁边的那个按键xD）<br />
+<br />
+于是你打下了MessageBox.Show(“Hello,World!”)<br />
+<br />
+<a href="http://lh6.ggpht.com/-LGEQ0aOIMnE/UhnmSeBb_kI/AAAAAAAAEJA/B9xUx8yr77Q/s1600-h/image%25255B23%25255D.png"><img alt="image" border="0" height="102" src="http://lh5.ggpht.com/-7aULF7DLjxo/UhnmTUHSHHI/AAAAAAAAEJI/Zgnzkis1a0w/image_thumb%25255B7%25255D.png?imgmax=800" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="416" /></a><br />
+<br />
+<br />
+<br />
+你：这又是神马情况？为啥还有波浪的！<br />
+<br />
+我：为什么会有波浪线？因为VS..<br />
+<br />
+你：说重点！<br />
+<br />
+记住了：所有的代码（当然有一些除外），末端要加上一个分号; （如果你又不知道分号是啥，就是那个在Enter的旁边的旁边那个按键xDD）<br />
+<br />
+因为你要让VS知道该代码在那一行停下，就是我们的句号那样 "。"<br />
+<br />
+所以正确的代码就是：<br />
+<br />
+<a href="http://lh6.ggpht.com/-Fga9wXwu2iA/UhnmUBAIgcI/AAAAAAAAEJQ/yO_fVmq8BUc/s1600-h/image%25255B26%25255D.png"><img alt="image" border="0" height="97" src="http://lh4.ggpht.com/-F-OrH-graX8/UhnmUheELEI/AAAAAAAAEJY/mnU0hSfbKjE/image_thumb%25255B8%25255D.png?imgmax=800" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="414" /></a><br />
+<br />
+<br />
+<br />
+你：然后呢？<br />
+<br />
+我：按下那个代表着成功的按键！<br />
+<br />
+你：啥？<br />
+<br />
+就是debug键啦——F5或者是上方的<a href="http://lh6.ggpht.com/-8RZTS2ejzpQ/UhnmVZortDI/AAAAAAAAEJg/AAbc_7VOeqg/s1600-h/image%25255B29%25255D.png"><img alt="image" border="0" height="21" src="http://lh3.ggpht.com/-x7UH1AuagII/UhnmV7kCLUI/AAAAAAAAEJo/46HfjjLPULY/image_thumb%25255B9%25255D.png?imgmax=800" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="19" /></a><br />
+<br />
+<a href="http://lh3.ggpht.com/-GLqDSZn7HrU/UhnmWX0EnkI/AAAAAAAAEJw/lFR-iv1xYOk/s1600-h/image%25255B32%25255D.png"><img alt="image" border="0" height="287" src="http://lh3.ggpht.com/-RlV1-fzE1Js/UhnmW-s-9EI/AAAAAAAAEJ4/S-9u8b57-QA/image_thumb%25255B10%25255D.png?imgmax=800" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="444" /></a><br />
+<br />
+<br />
+<br />
+然后就会看到这个：<br />
+<br />
+<a href="http://lh6.ggpht.com/-wEoHxWiHBi4/UhnmXklOa5I/AAAAAAAAEKA/Oc_q4HlJ4YM/s1600-h/image%25255B35%25255D.png"><img alt="image" border="0" height="322" src="http://lh3.ggpht.com/-jeiF6X7P4fA/UhnmYIVpLcI/AAAAAAAAEKI/GERuaqRAA9k/image_thumb%25255B11%25255D.png?imgmax=800" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="237" /></a><br />
+<br />
+<br />
+<br />
+看到button了么？<br />
+<br />
+用尽全力点下他！<br />
+<br />
+<a href="http://lh3.ggpht.com/-Wnw73mmL2c4/UhnmYq5jwwI/AAAAAAAAEKQ/ZvC3RM9caTI/s1600-h/image%25255B38%25255D.png"><img alt="image" border="0" height="346" src="http://lh4.ggpht.com/-NPkMyZKBKUw/UhnmZPx6rgI/AAAAAAAAEKY/xAyNL-FKbhY/image_thumb%25255B12%25255D.png?imgmax=800" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="259" /></a><br />
+<br />
+<br />
+<br />
+你成功了！<br />
+<br />
+<br />
+<br />
+<h2>【更换标题】</h2><br />
+<br />
+<br />
+你：为啥没有标题的？<br />
+<br />
+恩..good question!<br />
+<br />
+现在点击"Hello,World!"后面（括号前面），然后输入一个逗号,<br />
+<br />
+然后救世主出来了：<br />
+<br />
+<a href="http://lh3.ggpht.com/-RQr4Orcq9M0/UhnukrbTUPI/AAAAAAAAEKo/ZygqkNX2MnA/s1600-h/image%25255B41%25255D.png"><img alt="image" border="0" height="98" src="http://lh5.ggpht.com/-cVglNjNLL1w/UhnulGeb1ZI/AAAAAAAAEKw/ILmLj3mlx3E/image_thumb%25255B13%25255D.png?imgmax=800" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="568" /></a><br />
+<br />
+<br />
+<br />
+看到旁边的<a href="http://lh5.ggpht.com/-j7RNgVnzbP4/UhnulkW5q-I/AAAAAAAAEK4/HniNve3DnOc/s1600-h/image%25255B44%25255D.png"><img alt="image" border="0" height="28" src="http://lh3.ggpht.com/-ptQRXI9YRj0/UhnumMNpZFI/AAAAAAAAELA/OyVeO4YpRJA/image_thumb%25255B14%25255D.png?imgmax=800" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="80" /></a>么？<br />
+<br />
+现在按“下”键（不是下x贱…，是那个方向键），一直到你看到这个：<br />
+<br />
+<a href="http://lh3.ggpht.com/-iuuCilOkLFo/Uhnumtt_ybI/AAAAAAAAELI/5qu6qDaAWyE/s1600-h/image%25255B47%25255D.png"><img alt="image" border="0" height="98" src="http://lh3.ggpht.com/-0adTVhAkH4E/UhnunO7NOiI/AAAAAAAAELQ/4sH7XBIzAl8/image_thumb%25255B15%25255D.png?imgmax=800" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="529" /></a><br />
+<br />
+<br />
+<br />
+caption是啥？标题！<br />
+<br />
+然后..你懂的：<br />
+<br />
+<a href="http://lh3.ggpht.com/-qzwJ5Tmiv78/Uhnunjvb8tI/AAAAAAAAELY/uVvE94_VpEA/s1600-h/image%25255B50%25255D.png"><img alt="image" border="0" height="99" src="http://lh5.ggpht.com/-DZMiVJOonZ0/UhnuoEsH2vI/AAAAAAAAELg/0BOf13qYp-M/image_thumb%25255B16%25255D.png?imgmax=800" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="412" /></a><br />
+<br />
+然后编译，点击button：<br />
+<br />
+<a href="http://lh4.ggpht.com/-IS_IWmJZUL8/UhnuonJMClI/AAAAAAAAELo/hjuilVZagCs/s1600-h/image%25255B53%25255D.png"><img alt="image" border="0" height="426" src="http://lh6.ggpht.com/-QdLXJwIkrDc/UhnupDlEgDI/AAAAAAAAELw/dwt8F8q1HdY/image_thumb%25255B17%25255D.png?imgmax=800" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="260" /></a><br />
+<br />
+<br />
+<br />
+有木有觉得很有成就感？<br />
+<br />
+<br />
+<br />
+<h2>【更换按钮】</h2><br />
+<br />
+<br />
+你：我可以换掉那个OK按钮么？能不能放"Hello,World!"？<br />
+<br />
+我：..你怎么发现了 不！！<br />
+<br />
+是不是MessageBox的OK按钮很单调、无聊？按钮是可以改的，.net 给你了一堆option让你更改MessageBox显示的按钮，至于更换成"Hello,World!"的话..对不起，暂时没有 xD<br />
+<br />
+在加个逗号，按下N次下键后，你会看到这个：<br />
+<br />
+<a href="http://lh5.ggpht.com/-6wLa5DpKPeo/UiATAYy7iJI/AAAAAAAAEOQ/cGmRgdiK7BU/s1600-h/image%25255B3%25255D.png"><img alt="image" border="0" height="125" src="http://lh4.ggpht.com/-u1vmbeqqEn8/UiATBPtHDNI/AAAAAAAAEOY/xWnzVnjzu70/image_thumb%25255B1%25255D.png?imgmax=800" style="background-image: none; border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="779" /></a><br />
+<br />
+<br />
+<br />
+你：MessageBoxButtons是来的？<br />
+<br />
+MessageBoxButtons 是一个enum，至于enum是啥..恩..现在不说先xD<br />
+<br />
+只要输入 MessageBoxButtons然后加上一个 .&nbsp; 就会看到N个种类：<br />
+<br />
+<a href="http://lh3.ggpht.com/-Cj2X4-Yo1uU/UiATBvzYJ0I/AAAAAAAAEOg/3JXINaW2dPw/s1600-h/image%25255B6%25255D.png"><img alt="image" border="0" height="191" src="http://lh4.ggpht.com/-NW46XpevOMM/UiATCLBzHXI/AAAAAAAAEOo/zL8SKfsG4rU/image_thumb%25255B2%25255D.png?imgmax=800" style="background-image: none; border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="595" /></a><br />
+<br />
+<br />
+<br />
+<br />
+看到了没？<br />
+<br />
+有AbortRetryIgnore,OK,OKCancel,RetryCancel,YesNo,YesNoCancel<br />
+<br />
+比如说OK，MessageBox上面就只是显示OK<br />
+<br />
+YesNo呢，就是Yes 和 No 咯！<br />
+<br />
+咱们试试YesNo看看：<br />
+<br />
+<a href="http://lh4.ggpht.com/-IDhJsBzGtYY/UiATCn7BwuI/AAAAAAAAEOw/uUHQHDbu7wA/s1600-h/image%25255B9%25255D.png"><img alt="image" border="0" height="90" src="http://lh6.ggpht.com/-pjwVSiREd4w/UiATDj8zf0I/AAAAAAAAEO4/6vEIMDeKWW0/image_thumb%25255B3%25255D.png?imgmax=800" style="background-image: none; border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="532" /></a><br />
+<br />
+<br />
+<br />
+然后编译、运行：<br />
+<br />
+<a href="http://lh6.ggpht.com/-BWabcUvfxjw/UiATET-4zqI/AAAAAAAAEPA/KMp2UVM3wrE/s1600-h/image%25255B12%25255D.png"><img alt="image" border="0" height="420" src="http://lh6.ggpht.com/-yEqgj-E6j6o/UiATEwVah3I/AAAAAAAAEPI/MbjksS0dMds/image_thumb%25255B4%25255D.png?imgmax=800" style="background-image: none; border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="292" /></a><br />
+<br />
+<br />
+<br />
+你佩服自己么？<br />
+<br />
+<br />
+<br />
+<h2>【更换Form标题】</h2><br />
+<br />
+<br />
+你：在弱弱问一个：能不能更换那个Form的标题啊？我不要Form1..<br />
+<br />
+我：Properties!Properties!<br />
+<br />
+点击Form 找到Text 属性！更改！（激动中）<br />
+<br />
+<a href="http://lh6.ggpht.com/-8Zo7djsqyUo/UiATFkeH8mI/AAAAAAAAEPQ/vaV3qYasovo/s1600-h/image%25255B15%25255D.png"><img alt="image" border="0" src="http://lh5.ggpht.com/-YLUdVEE_esM/UiATHeUXB-I/AAAAAAAAEPY/wW2T6CkIhAQ/image_thumb%25255B5%25255D.png?imgmax=800" style="background-image: none; border: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" /></a><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+好了..MessageBox教到此.. 再见！

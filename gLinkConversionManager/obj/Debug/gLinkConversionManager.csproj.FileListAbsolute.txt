@@ -1,0 +1,9 @@
+F:\CSharp\gBloggerToJekyll\gLinkConversionManager\bin\Debug\gLinkConversionManager.exe.config
+F:\CSharp\gBloggerToJekyll\gLinkConversionManager\bin\Debug\gLinkConversionManager.exe
+F:\CSharp\gBloggerToJekyll\gLinkConversionManager\bin\Debug\gLinkConversionManager.pdb
+F:\CSharp\gBloggerToJekyll\gLinkConversionManager\obj\Debug\gLinkConversionManager.csprojResolveAssemblyReference.cache
+F:\CSharp\gBloggerToJekyll\gLinkConversionManager\obj\Debug\gLinkConversionManager.frmMain.resources
+F:\CSharp\gBloggerToJekyll\gLinkConversionManager\obj\Debug\gLinkConversionManager.Properties.Resources.resources
+F:\CSharp\gBloggerToJekyll\gLinkConversionManager\obj\Debug\gLinkConversionManager.csproj.GenerateResource.Cache
+F:\CSharp\gBloggerToJekyll\gLinkConversionManager\obj\Debug\gLinkConversionManager.exe
+F:\CSharp\gBloggerToJekyll\gLinkConversionManager\obj\Debug\gLinkConversionManager.pdb

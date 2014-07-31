@@ -1,0 +1,39 @@
+笔者看到一个朋友用VB2010写了个Fade效果的程序<br />
+<div>
+用了me.opacity + 2个Timer</div>
+<div>
+发现很有趣</div>
+<div>
+便打开自己那一过时了的VB6来写</div>
+<div>
+突然</div>
+<div>
+发现VB6竟然没有Opacity函数（可悲啊～）</div>
+<div>
+灵感涌上</div>
+<div>
+控制窗体的透明度就应该可以达成Fade效果了吧～</div>
+<div>
+果然成功啦～</div>
+<div>
+<br /></div>
+<div>
+用了1个Timer + For</div>
+<div>
+绕了个大圈</div>
+<div>
+终于可以啦～</div>
+<div>
+<br /></div>
+<div>
+EXE文件下载地址：<a href="http://dl.dropbox.com/u/43619472/%E6%89%B9%E5%A4%84%E7%90%86/VB6/Fade/Fade.exe">Fade</a></div>
+<div>
+<br /></div>
+<div>
+源代码+EXE文件下载地址：<a href="http://dl.dropbox.com/u/43619472/%E6%89%B9%E5%A4%84%E7%90%86/VB6/Fade/Fade.zip">Fade+Code.zip</a></div>
+<div>
+<br /></div>
+<div>
+因为是开源的，可以任意更改，没有版权的哦～<br />
+<br />
+<span class="Apple-style-span" style="color: red;">注：Aero主题下似乎没有效果。。。</span></div>

@@ -1,0 +1,62 @@
+很多人还不清楚什么是位运算，所以就写了个教程。<br />
+了解位运算之前，先看看如何将2进制转换为10进制，或者从10进制换成2进制。<br />
+过程很难用文字解说出来，所以以例子图片来表达。<br />
+<br />
+<strong><span style="font-size: medium;">【2进制】</span></strong><br />
+<span style="color: red;"><strong>注意：2^0 = 1</strong></span><br />
+例子：<br />
+1）转换10011为十进制：<br />
+<a href="http://lh5.ggpht.com/-0PleUVAfqeg/USCHJd6Pz9I/AAAAAAAADH4/gSHoe6O6bZA/s1600-h/image%25255B9%25255D.png"><img alt="image" height="262" src="http://lh5.ggpht.com/-gqmlvH0RYOo/USCHKEzA9_I/AAAAAAAADIA/pmDp6FnTKqc/image_thumb%25255B3%25255D.png?imgmax=800" style="display: inline;" title="image" width="618" /></a> <br />
+<br />
+<strong><span style="font-size: medium;">【10进制】</span></strong><br />
+例子：<br />
+转换19转换为2进制：<br />
+<a href="http://lh4.ggpht.com/-9ffBoQgB4j8/USCHK6RIUHI/AAAAAAAADII/nHN6mpit-7k/s1600-h/image%25255B12%25255D.png"><img alt="image" height="357" src="http://lh5.ggpht.com/-dHxWjvPjlpU/USCHLk8-zuI/AAAAAAAADIQ/-CzS7_lM2qc/image_thumb%25255B4%25255D.png?imgmax=800" style="display: inline;" title="image" width="376" /></a> <br />
+<br />
+现在开始看看位运算吧：<br />
+位运算全部都是基于2进制操作的，所以所有都要转换到2进制才能进行位运算。<br />
+<span style="color: red;"><strong>注意：位运算时，不足则补零</strong></span><br />
+位运算中，0是False，1是True<br />
+<br />
+<strong><span style="font-size: medium;">【AND】</span></strong><br />
+<span style="color: red;"><u>两边</u>都是True，则为True (两边都是1，则为1)</span><br />
+<blockquote>
+1<span style="font-size: xx-small;">(2)</span> AND 1<span style="font-size: xx-small;">(2)</span> = 1<br />
+1<span style="font-size: xx-small;">(2)</span> AND 0<span style="font-size: xx-small;">(2)</span> = 0<br />
+0<span style="font-size: xx-small;">(2)</span> AND 0<span style="font-size: xx-small;">(2)</span> = 0</blockquote>
+例子：<br />
+1）10 AND 19&nbsp; = ?<br />
+10 = 1010<span style="font-size: xx-small;">(2)</span> <br />
+19 = 10011<span style="font-size: xx-small;">(2)</span> <br />
+<a href="http://lh5.ggpht.com/-J01g-uhFFr0/USCHME-AIUI/AAAAAAAADIY/OtTBkxB39R8/s1600-h/image%25255B15%25255D.png"><img alt="image" height="137" src="http://lh4.ggpht.com/-jxFfiZmR1gI/USCHMpTdoQI/AAAAAAAADIg/ICClaMmLSKQ/image_thumb%25255B5%25255D.png?imgmax=800" style="display: inline;" title="image" width="221" /></a> <br />
+<strong>10 AND 19 = 00010<span style="font-size: xx-small;">(2) </span>= 2</strong><br />
+<br />
+<strong><span style="font-size: medium;">【OR】</span></strong><br />
+<span style="color: red;"><u>其中一边</u>为True，则为True（其中一边1，则为1）</span><br />
+<blockquote>
+1<span style="font-size: xx-small;">(2)</span> OR 1<span style="font-size: xx-small;">(2)</span> = 1<br />
+1<span style="font-size: xx-small;">(2)</span> OR 0<span style="font-size: xx-small;">(2)</span> = 1<br />
+0<span style="font-size: xx-small;">(2)</span> OR 0<span style="font-size: xx-small;">(2)</span> = 0</blockquote>
+例子：<br />
+1）10 OR 19 = ?<br />
+10 = 1010<span style="font-size: xx-small;">(2)</span> <br />
+19 = 10011<span style="font-size: xx-small;">(2)</span> <br />
+<a href="http://lh5.ggpht.com/-TweJPCj0688/USCK4O50umI/AAAAAAAADKU/toL1TZIcVzw/s1600-h/image%25255B18%25255D.png"><img alt="image" height="142" src="http://lh3.ggpht.com/-SflzWKJcIXw/USCK5AyGJSI/AAAAAAAADKc/QnhVq-0sXD8/image_thumb%25255B6%25255D.png?imgmax=800" style="display: inline;" title="image" width="199" /></a> <br />
+<strong>10 OR 19 = 11011<span style="font-size: xx-small;">(2) </span>= 27</strong><br />
+<br />
+<strong><span style="font-size: medium;">【XOR】</span></strong><br />
+<span style="color: red;"><u>其中一边</u>为<strong>False</strong>，则为True（其中一边0，则为1）</span><br />
+<span style="color: purple;">*谢谢网友luther，更正了错误</span><br />
+<blockquote>
+1<span style="font-size: xx-small;">(2) </span>XOR 1<span style="font-size: xx-small;">(2)</span> = 0<br />
+1<span style="font-size: xx-small;">(2)</span>&nbsp;XOR&nbsp;0<span style="font-size: xx-small;">(2)</span> = 1<br />
+0<span style="font-size: xx-small;">(2)</span>&nbsp;XOR&nbsp;0<span style="font-size: xx-small;">(2)</span> = 0</blockquote>
+例子：<br />
+1）10 XOR 19 = ?<br />
+<div class="separator" style="clear: both; text-align: left;">
+<a href="http://2.bp.blogspot.com/-NBiXiJ3UAW0/Uc18GtbLDOI/AAAAAAAADdg/XDe0peSm-DY/s200/Untitled.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-NBiXiJ3UAW0/Uc18GtbLDOI/AAAAAAAADdg/XDe0peSm-DY/s200/Untitled.png" /></a></div>
+<br />
+10 = 1010<span style="font-size: xx-small;">(2)</span> <br />
+19 = 10011<span style="font-size: xx-small;">(2)</span> <br />
+<br />
+<strong>10 XOR 19 = 11001<span style="font-size: xx-small;">(2) </span>= 25</strong>

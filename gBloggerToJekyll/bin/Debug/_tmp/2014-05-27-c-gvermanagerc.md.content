@@ -1,0 +1,38 @@
+gVerManager 一个非常简单，用来AssemblyInfo.cs 之中的[assembly: AssemblyVersion(“XX”)]项<br />
+开源版本，源代码：<a href="https://github.com/garyng/gVerManager" title="https://github.com/garyng/gVerManager">https://github.com/garyng/gVerManager</a><br />
+<span style="color: red;">*需要.net 3.5</span><br />
+<h1>
+【使用教程】</h1>
+1、到我的github上下载整个repo<br />
+<a href="http://lh6.ggpht.com/-4yWRe6iZzzQ/U4SEC7Yya2I/AAAAAAAAG9k/02Qj_i0JSko/s1600-h/image%25255B6%25255D.png"><img alt="image" border="0" src="http://lh6.ggpht.com/-vPZCVwv22UQ/U4SEDxEqUYI/AAAAAAAAG9s/hjMDJhqAu0k/image_thumb%25255B4%25255D.png?imgmax=800" height="307" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="396" /></a><br />
+2、打开zip文件<br />
+进入gVerManager-master.zip\gVerManager-master\gVerManager\bin\Debug 你会看到gVerManager.exe 的文件<br />
+把它copy 出来<br />
+<a href="http://lh4.ggpht.com/-4lURtnIf3RI/U4SEExI4wYI/AAAAAAAAG90/J_k604IWhgA/s1600-h/image%25255B9%25255D.png"><img alt="image" border="0" src="http://lh3.ggpht.com/-1XMVPmNqkBQ/U4SEGCYWurI/AAAAAAAAG98/kLWklfV0W9Q/image_thumb%25255B5%25255D.png?imgmax=800" height="512" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="780" /></a><br />
+<br />
+3、然后打开你的C# Project<br />
+放到你的Debug 目录下<br />
+<a href="http://lh5.ggpht.com/-w4V4A4pu2n0/U4SEHGwg9rI/AAAAAAAAG-E/4U0Y0v-_--A/s1600-h/image%25255B12%25255D.png"><img alt="image" border="0" src="http://lh5.ggpht.com/-yswMDj3kMGw/U4SEHwJxVuI/AAAAAAAAG-M/tdIs15zR510/image_thumb%25255B6%25255D.png?imgmax=800" height="294" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="763" /></a><br />
+4、Visual Studio 打开你的Solution<br />
+打开Properties 下的 AssemblyInfo.cs<br />
+<a href="http://lh5.ggpht.com/-JeJw6iQ0K-A/U4SEIzp9OJI/AAAAAAAAG-U/-umdnk_FiEg/s1600-h/image%25255B16%25255D.png"><img alt="image" border="0" src="http://lh4.ggpht.com/-KzpA-gRrb74/U4SEJp6RG-I/AAAAAAAAG-c/qNsxzrUZoaI/image_thumb%25255B12%25255D.png?imgmax=800" height="638" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="379" /></a><br />
+<br />
+5、把[assembly: AssemblyFileVersion("1.0.0.0")]给注释掉<br />
+然后保存<br />
+<a href="http://lh3.ggpht.com/-EIM7WjLg70k/U4SEKRhlB5I/AAAAAAAAG-k/oE_Rlgl5ptA/s1600-h/image%25255B19%25255D.png"><img alt="image" border="0" src="http://lh5.ggpht.com/-_vRWy-TyoLg/U4SELEx8hdI/AAAAAAAAG-s/yajZTsLKJ0E/image_thumb%25255B13%25255D.png?imgmax=800" height="612" style="background-image: none; border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="654" /></a><br />
+<br />
+6、在Solution Explorer 内右键你的Project<br />
+点击Properties<br />
+<a href="http://lh6.ggpht.com/-df-pBojoCpE/U4SEMKf9OsI/AAAAAAAAG-0/C4VD1DMRxd8/s1600-h/image%25255B22%25255D.png"><img alt="image" border="0" src="http://lh5.ggpht.com/-uM2K3F-sMr0/U4SEM7uBlYI/AAAAAAAAG-8/bJM4fQvTAQs/image_thumb%25255B14%25255D.png?imgmax=800" height="734" style="background-image: none; border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="508" /></a><br />
+<br />
+7、然后点击Build Events<br />
+在Pre-build event command line 之中输入：<br />
+gVerManager.exe -f "$(ProjectDir)Properties\AssemblyInfo.cs"<br />
+<a href="http://lh3.ggpht.com/-pK4ukXJutPI/U4SENgdEAFI/AAAAAAAAG_E/RlRO7hR7rB4/s1600-h/image%25255B25%25255D.png"><img alt="image" border="0" src="http://lh6.ggpht.com/-Tu2-yvZG7Yo/U4SEOldPukI/AAAAAAAAG_M/4MU_OSfYVSg/image_thumb%25255B15%25255D.png?imgmax=800" height="542" style="background-image: none; border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="653" /></a><br />
+<br />
+8、F6试试编译<br />
+然后就可以查看效果了！<br />
+<a href="http://lh6.ggpht.com/-4Aj8z_vdKEU/U4SEPS6AZeI/AAAAAAAAG_U/jPndWoIJP1Q/s1600-h/image%25255B28%25255D.png"><img alt="image" border="0" src="http://lh3.ggpht.com/-jsV_ipY4_tw/U4SEQE62z8I/AAAAAAAAG_c/A4jG-mgTGPE/image_thumb%25255B16%25255D.png?imgmax=800" height="554" style="background-image: none; border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="679" /></a><br />
+<br />
+<br />
+注：久违的更新！xD

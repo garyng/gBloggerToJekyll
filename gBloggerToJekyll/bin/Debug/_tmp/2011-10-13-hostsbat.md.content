@@ -1,0 +1,67 @@
+<b>先来个Hosts文件介绍～</b><br />
+<b><br />
+</b><br />
+<b>Hosts文件中存放的是一些<span class="Apple-style-span" style="color: red;">网站主机的域名和其对应的IP</span>。当我们在使用浏览器浏览一个网站时，系统会先检查本地的Hosts表文件，其中是否已经有相应的域名与IP地址对应关系，如果有就会直接采用，因而会节约大量的时间。假如Hosts表文件的某个域名与IP地址产生了错误的对应，但你在浏览器中输入这个域名试图打开其对应的网页时，就会出现打不开的情况。根据此原理，我们可以通过修改Hosts文件来解决某些网站打不开的情况。</b><br />
+<a name='more'></a><br />
+<b>同时，一些烦人的网站（例如那烦人的广告）我们可以利用这个特性将其‘屏蔽’掉，<span class="Apple-style-span" style="color: red;">只要添加这个网站并将其对应的IP写为127.0.0.1即可</span>～本程序运用了Hosts文件的特性，让用户能自由添加要屏蔽的网站，备份Hosts文件，等等一些实用的功能～</b><br />
+<b><span class="Apple-style-span" style="font-size: x-small;">&lt;摘自“魔方”，略有修改&gt;</span></b><br />
+<b><br />
+</b><br />
+<b>程序下载地址：</b><br />
+<b>.bat文件</b><br />
+<b><a href="http://dl.dropbox.com/u/43619472/%E6%89%B9%E5%A4%84%E7%90%86/Hosts%E6%96%87%E4%BB%B6%E4%BF%AE%E6%94%B9%E5%99%A8/Hosts%E6%96%87%E4%BB%B6%E4%BF%AE%E6%94%B9%E5%99%A8.bat">Hosts文件修改器.bat</a></b><br />
+<b><strike><span class="Apple-style-span" style="color: red;">.exe文件 </span></strike></b><br />
+<br />
+<div class="MsoNormal" style="font-weight: 800;">
+<span class="Apple-style-span" style="color: red;"><span class="apple-style-span"><b><s><span style="font-size: 13.5pt; line-height: 115%;">Hosts</span></s></b></span><span class="apple-style-span"><b><s><span lang="ZH-CN" style="font-family: 宋体; font-size: 13.5pt; line-height: 115%;">文件修改器</span></s></b></span><span class="apple-style-span"><b><span style="font-size: 13.5pt; line-height: 115%;"><strike>.exe</strike>&nbsp; 13-11-2011起，不供下载</span></b></span></span></div>
+<div class="MsoNormal">
+<span class="Apple-style-span" style="font-size: medium;"><span class="Apple-style-span" style="font-weight: 900; line-height: 20px;"><strike><br /></strike></span></span></div>
+<br />
+<b><br />
+</b><br />
+<b>附加：<br /><strike><span class="Apple-style-span" style="color: red;">源代码下载地址 &nbsp;</span></strike></b><span class="Apple-style-span" style="color: red; font-weight: 800;"><b><span style="font-size: 13.5pt; line-height: 20px;">13-11-2011起，不供下载</span></b></span><br />
+<b><br />
+</b><br />
+<b><span class="Apple-style-span" style="background-color: white; font-family: Helvetica, Arial, sans-serif; font-size: 14px; line-height: 22px;"></span></b><br />
+<div style="line-height: normal; word-wrap: break-word;">
+<b>主要功能：<br style="line-height: normal; word-wrap: break-word;" />1、屏蔽网站</b></div>
+<div style="line-height: normal; word-wrap: break-word;">
+<b>2、解除已屏蔽的网站<br style="line-height: normal; word-wrap: break-word;" /><br style="line-height: normal; word-wrap: break-word;" />其他功能：<br style="line-height: normal; word-wrap: break-word;" />1、显示Hosts文件<br style="line-height: normal; word-wrap: break-word;" />2、统计Hosts文件内的链接数量<br style="line-height: normal; word-wrap: break-word;" />3、Hosts文件介绍<br style="line-height: normal; word-wrap: break-word;" />4、修复Hosts文件</b></div>
+<div style="line-height: normal; word-wrap: break-word;">
+<b>5、备份Hosts文件<br style="line-height: normal; word-wrap: break-word;" />6、还原Hosts文件<br style="line-height: normal; word-wrap: break-word;" />7、检查更新</b></div>
+<div style="line-height: normal; word-wrap: break-word;">
+<b>8、报虫（BUG）</b></div>
+<div style="font-weight: normal;">
+<b><br />
+</b></div>
+<b><br /></b><br />
+<b>好啦～</b><br />
+<b>不多说啦～</b><br />
+<b><span class="Apple-style-span" style="color: red;">注：</span></b><br />
+<b><span class="Apple-style-span" style="color: red;">如果下载的是.bat的，请跟着下面的指示运行程序！</span></b><br />
+<b>1、</b><br />
+<b>左键点击已下载的文件，选择"Run As Administrator"&nbsp;</b><br />
+<table cellpadding="0" cellspacing="0" class="tr-caption-container" style="float: left; margin-right: 1em; text-align: left;"><tbody>
+<tr><td style="text-align: center;"><a href="http://3.bp.blogspot.com/-ZhDHPx8UtE0/Tpbq_pWCtnI/AAAAAAAAAE0/22qT8P_LQJc/s1600/1.jpg" imageanchor="1" style="clear: left; margin-bottom: 1em; margin-left: auto; margin-right: auto;"><b><img border="0" height="85" src="http://3.bp.blogspot.com/-ZhDHPx8UtE0/Tpbq_pWCtnI/AAAAAAAAAE0/22qT8P_LQJc/s400/1.jpg" width="400" /></b></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;"><b><span class="Apple-style-span" style="font-size: x-small;">左键点击已下载的文件，选择"Run As Administrator"</span></b></td></tr>
+</tbody></table>
+<b><span class="Apple-style-span" style="color: red;"><br />
+</span></b><br />
+<b><span class="Apple-style-span" style="color: red;"><br />
+</span></b><br />
+<b><br />
+</b><br />
+<b><br />
+</b><br />
+<b><br />
+</b><br />
+<b><br />
+</b><br />
+<b><br />
+</b><br />
+<b>2、</b><br />
+<b>在跳出来的框框点击"Continue"即可！</b><br />
+<b><br />
+</b><br />
+<b><br />
+</b>

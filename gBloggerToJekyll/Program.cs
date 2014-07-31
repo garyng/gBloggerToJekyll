@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Runtime.InteropServices;
+using System.Runtime.Serialization.Json;
 using System.Text;
 using System.Threading;
-using System.Xml;
 using Google.Apis.Auth.OAuth2;
 using Google.Apis.Blogger.v3;
 using Google.Apis.Blogger.v3.Data;
@@ -16,10 +17,13 @@ namespace gBloggerToJekyll
 {
 	class Program
 	{
+		[DllImport("kernel32.dll")]
+		static extern IntPtr GetConsoleWindow();
+
 		static void Main(string[] args)
 		{
 			BloggerManager bh = new BloggerManager("1063292627846-cklckmk7efnioeli841r29q98n8tika4.apps.googleusercontent.com", "zIJi0yOm0d3v54oPsu2jvvkF", "gBloggerToJekyll");
-			List<Blog> blogs = new List<Blog>();			
+			List<Blog> blogs = new List<Blog>();
 
 			Console.ReadKey();
 			bh.Login();
@@ -46,13 +50,21 @@ namespace gBloggerToJekyll
 			{
 				ConvertManager cm = new ConvertManager("_converted", "_tmp");
 				Console.WriteLine(bh.GetPageViews(blog.Id));
+
 				//bh.GetLivePosts(blog.Id).ForEach(item => Console.WriteLine(item.Title + " " + item.Url));
-				BloggerManager.PostInfo pi = new BloggerManager.PostInfo();
-				bh.GetLivePosts(blog.Id).ForEach(delegate(Post item)
+
+				List<gBloggerToJekyll.BloggerManager.PostInfo> postInfoList = new List<BloggerManager.PostInfo>();
+
+				bh.GetLivePosts(blog.Id).ForEach(item => postInfoList.Add(bh.GetPost(blog.Id, item.Id)));
+
+				LinkConversionHelper.Save(postInfoList);
+
+				Console.WriteLine("Press any key to convert posts");
+				Console.ReadKey();
+				postInfoList.ForEach(delegate(gBloggerToJekyll.BloggerManager.PostInfo item)
 				{
-					pi = bh.GetPost(blog.Id, item.Id);
-					cm.SavePost(pi);
-					Console.WriteLine(pi.Title);
+					cm.SavePost(item);
+					Console.WriteLine(item.Title);
 				});
 
 				//BloggerManager.PostInfo pi = bh.GetPost(blog.Id, bh.GetLivePosts(blog.Id)[0].Id);
@@ -66,12 +78,40 @@ namespace gBloggerToJekyll
 			Console.ReadKey();
 			//bh.Logout();
 		}
+
 	}
-	
+
+	static class LinkConversionHelper
+	{
+		public static void Save(List<gBloggerToJekyll.BloggerManager.PostInfo> postList)
+		{
+			serializeDict(convertListToDict(postList));
+		}
+
+		private static void serializeDict(Dictionary<string, DateTime?> dict)
+		{
+			string serialized = SerializeHelper.ToJson(dict);
+			File.WriteAllText("gbtk-data.json", serialized);
+		}
+
+		private static Dictionary<string,DateTime?> convertListToDict(List<gBloggerToJekyll.BloggerManager.PostInfo> postList)
+		{
+			Dictionary<string, DateTime?> urlDate = new Dictionary<string, DateTime?>();
+			postList.ForEach(item => urlDate.Add(item.Url.ToLower(), item.Published));
+			return urlDate;
+		}
+	}
 	class ConvertManager
 	{
 		string _strSaveFolderName;
 		string _strSaveFolderTempName;
+
+		enum Converter
+		{
+			html2text,
+			pandoc
+		}
+
 		public ConvertManager(string saveFolderName, string saveFolderTempName)
 		{
 			_strSaveFolderName = saveFolderName;
@@ -89,7 +129,7 @@ namespace gBloggerToJekyll
 			string content = postInfo.Content;
 			string contentFilename = saveToFile(content, filename, ".content", _strSaveFolderTempName);
 
-			content = convertPostContent(contentFilename);
+			content = convertPostContent(contentFilename, Converter.pandoc);
 
 			saveToFile(frontMatter + content, filename, "", _strSaveFolderName);
 			//Directory.Delete(_strSaveFolderTempName, true);
@@ -110,22 +150,42 @@ namespace gBloggerToJekyll
 			return savePath;
 		}
 
-		private string convertPostContent(string filename)
+		private string convertPostContent(string filename, Converter converter)
 		{
-			string processName = "html2text.exe";
-			string processArgs = " \"" + filename + "\" -b 0";
+			string processName = "";
+			string processArgs = "";
 
+			if (converter == Converter.pandoc)
+			{
+				string[] pandocExtension = {
+											   "backtick_code_blocks",
+											   "auto_identifiers",
+											   "autolink_bare_uris",
+										   };
+				processName = "pandoc.exe";
+				processArgs = "-f html -t markdown_strict+" + string.Join("+", pandocExtension) + " --atx-headers \"" + filename + "\"";
+			}
+			else if (converter == Converter.html2text)
+			{
+				processName = "html2text.exe";
+				processArgs = " \"" + filename + "\" -b 0";
+			}
+
+			return redirectPipeOutput(processName, processArgs);
+		}
+
+		private string redirectPipeOutput(string processName, string processArgs)
+		{
 			ProcessStartInfo psi = new ProcessStartInfo(processName, processArgs);
 			psi.RedirectStandardOutput = true;
 
-			Process proc = new Process();
-			proc.StartInfo = psi;
+			Process proc = new Process() { StartInfo = psi };
 
 			psi.UseShellExecute = false;
 			proc.Start();
 
 			string outputString = "";
-			proc.WaitForExit(2000);
+			proc.WaitForExit(5000);
 			using (StreamReader sr = new StreamReader(proc.StandardOutput.BaseStream))
 			{
 				outputString = sr.ReadToEnd();
@@ -189,7 +249,6 @@ namespace gBloggerToJekyll
 			public string AuthorName;
 			public DateTime? Published;
 			public List<string> Tags;
-
 		}
 
 		public BloggerManager(string clientId, string clientSec,string appName)

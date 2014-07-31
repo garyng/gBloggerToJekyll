@@ -1,0 +1,32 @@
+大家眼中的批处理都是黑底白字的吧！<br />
+<br />
+但，<br />
+现在可不一定哦！！<br />
+虽然用COLOR和FINDSTR都可以实现<br />
+COLOR的缺点只能有两种颜色在同一个屏幕上<br />
+FINDSTR有临时文件<br />
+当然<br />
+DEBUG也有临时文件<br />
+改进后应该可以不用临时文件的～<br />
+<br />
+颜色选择：<br />
+<span class="Apple-style-span" style="background-color: white; font-family: Verdana;">0 = 黑色&nbsp; &nbsp;&nbsp; &nbsp; 8 = <span class="Apple-style-span" style="color: grey;">灰色</span><br />
+1 = <span class="Apple-style-span" style="color: navy;">蓝色</span>&nbsp; &nbsp;&nbsp; &nbsp; 9 = <span class="Apple-style-span" style="color: blue;">淡蓝色</span><br />
+2 = <span class="Apple-style-span" style="color: #274e13;">绿色</span>&nbsp; &nbsp;&nbsp; &nbsp; A = <span class="Apple-style-span" style="color: lime;">淡绿色</span><br />
+3 = <span class="Apple-style-span" style="color: #3d85c6;">湖蓝色</span>&nbsp; &nbsp;&nbsp;&nbsp;B = <span class="Apple-style-span" style="color: cyan;">淡浅绿色</span><br />
+4 = <span class="Apple-style-span" style="color: maroon;">红色</span>&nbsp; &nbsp;&nbsp; &nbsp; C = <span class="Apple-style-span" style="color: red;">淡红色</span><br />
+5 = <span class="Apple-style-span" style="color: purple;">紫色</span>&nbsp; &nbsp;&nbsp; &nbsp; D = <span class="Apple-style-span" style="color: magenta;">淡紫色</span></span><br />
+6 = <span class="Apple-style-span" style="color: olive;">黄色</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;E = <span class="Apple-style-span" style="background-color: black; color: yellow;">淡黄色</span><br />
+7 = <span class="Apple-style-span" style="background-color: black; color: silver;">白色</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="Apple-style-span" style="background-color: white;">&nbsp;F =</span><span class="Apple-style-span" style="background-color: black;"> <span class="Apple-style-span" style="color: white;">亮白色</span></span><br />
+<span class="Apple-style-span" style="background-color: black;"><span class="Apple-style-span" style="color: white;"><br />
+</span></span><br />
+注：我还未加入出错功能！<br />
+所以按照指示做吧！<br />
+还有，<span class="Apple-style-span" style="color: red;">不能显示华文</span>！！<br />
+<br />
+下载地址：<a href="http://dl.dropbox.com/u/43619472/%E6%89%B9%E5%A4%84%E7%90%86/%E5%85%B6%E4%BB%96%E7%B1%BB/%E4%B8%80%E5%B1%8F%E5%A4%9A%E8%89%B2-BETA.bat">一屏多色-BETA.bat</a><br />
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<img alt="clip0048.gif" border="0" height="470" src="http://2.bp.blogspot.com/-vifdrUFl1Uo/TqPhbW882WI/AAAAAAAAAUM/YjrNiRqXs7o/s640/clip0048.gif" width="640" /><br />
+<span class="Apple-style-span" style="background-color: black;"><span class="Apple-style-span" style="color: white;"><br />
+</span></span>

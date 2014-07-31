@@ -1,0 +1,74 @@
+<h1 align="center">
+【主界面】</h1>
+首先你得打开你的Visual Studio 2010 （废话，还有一下吧Visual Studio 2010 写成VS2010或者VS），先来看看VS的界面（笔者用VS2010 Ultimate，然后装了一些Plugin，如果你的跟我的不一样，别怕，没关系的）<br />
+<a href="http://lh3.ggpht.com/-Srd0U9Kdhec/UgoUfEi0mdI/AAAAAAAADwo/HX6bZVm312U/s1600-h/image2.png"><img alt="image" border="0" src="http://lh5.ggpht.com/-2-ukXXpgG_8/UgoUgKdyZEI/AAAAAAAADww/O5Y4J3Ta8bk/image_thumb.png?imgmax=800" height="731" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="1152" /></a><br />
+<br />
+<h1 align="center">
+【如何创建新的Project？】</h1>
+开了VS要做啥呢？当然是新建一个project！那要如何建立一个project 呢？有两种方法：<br />
+1、点击File &gt; New &gt; Project<br />
+<a href="http://lh5.ggpht.com/-yXIcedC4M2I/UgoUg22bpyI/AAAAAAAADw4/Qol3jctGpHY/s1600-h/image5.png"><img alt="image" border="0" src="http://lh5.ggpht.com/-6AEnipMkYYA/UgoUhlyYTrI/AAAAAAAADxA/fyoWYuU7uW8/image_thumb1.png?imgmax=800" height="374" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="678" /></a><br />
+<br />
+2、如果你懒惰移动滑鼠的话，你也可以直接按下Ctrl+Shift+N（记下这些快捷键，会节省很多时间的！）<br />
+过后你会看到这个窗口<br />
+<a href="http://lh3.ggpht.com/-TOEGjb-2Mz8/UgoUicOrDPI/AAAAAAAADxI/vFcMNuJE_wo/s1600-h/image8.png"><img alt="image" border="0" src="http://lh6.ggpht.com/-Q7JCnTAdj5w/UgoUjOr3PqI/AAAAAAAADxQ/hjVJ9FvGW4g/image_thumb2.png?imgmax=800" height="619" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="955" /></a><br />
+<br />
+点击Visual C# &gt; Windows Forms Application，在Name那儿给你的程序一个名字，然后你的程序就要诞生了！（兴奋么？）<br />
+<br />
+如果你看不到Visual C#这个项目，你得展开Other Language，在里面找应该有的：<br />
+<a href="http://lh5.ggpht.com/-bWDxIYjahJM/UgoUjjtEtyI/AAAAAAAADxY/UQ6lPev5hVY/s1600-h/image14.png"><img alt="image" border="0" src="http://lh4.ggpht.com/-X6EfR8oItHs/UgoUkVXsQCI/AAAAAAAADxg/u6sUira7no8/image_thumb4.png?imgmax=800" height="619" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="955" /></a><br />
+<br />
+<h1 align="center">
+【编辑主界面】</h1>
+创建新的project 之后，就会看到这些（或者是类似的），而且你基本上必须这些东西：<br />
+1、Toolbox<br />
+这里有所有的窗体控件，可以直接拖拉到程序窗体上，比如说我要增加一个Button控件，就可以按着Button，然后拖到Form Designer 那儿放下：<br />
+<a href="http://lh4.ggpht.com/-u5FPuFpqoQw/UgoUkxrO8zI/AAAAAAAADxo/7q-q8IfdKz8/s1600-h/image%25255B6%25255D.png"><img alt="image" border="0" src="http://lh5.ggpht.com/-nfNFV264KtI/UgoUlnzUZ5I/AAAAAAAADxw/_KsbESfouU4/image_thumb%25255B2%25255D.png?imgmax=800" height="722" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="741" /></a><br />
+<br />
+<a href="http://lh4.ggpht.com/-5nrqnBHPy3U/UgoUmEz1knI/AAAAAAAADx4/WQ4611FV9oU/s1600-h/image%25255B9%25255D.png"><img alt="image" border="0" src="http://lh5.ggpht.com/-x8y6SaOTV3g/UgoUm22vUuI/AAAAAAAADyA/U5TGnbjam-w/image_thumb%25255B3%25255D.png?imgmax=800" height="377" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="348" /></a><br />
+<br />
+如果你的VS没有Toolbox，可以到View &gt; Toolbox 显示它：<br />
+<a href="http://lh5.ggpht.com/-DzIgsUyi08I/UgoUnfmpD0I/AAAAAAAADyI/FJsmUN9nSRA/s1600-h/image%25255B12%25255D.png"><img alt="image" border="0" src="http://lh3.ggpht.com/-PihtwaZgOWU/UgoUn7yRPVI/AAAAAAAADyQ/TkCWwLz97Fg/image_thumb%25255B4%25255D.png?imgmax=800" height="690" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="386" /></a><br />
+<br />
+2、Error List<br />
+这里显示代码的错误、或者是warnings等等<br />
+<a href="http://lh5.ggpht.com/-3hu5N8y80X8/UgoUovT8GfI/AAAAAAAADyY/Ss6hba-KD9M/s1600-h/image%25255B18%25255D.png"><img alt="image" border="0" src="http://lh5.ggpht.com/-VIMG7de6ygM/UgoUpSKFL6I/AAAAAAAADyk/7hR_JtS3si4/image_thumb%25255B6%25255D.png?imgmax=800" height="259" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="1280" /></a><br />
+<br />
+如果VS没有呢，就到View &gt; Error List 那儿显示<br />
+<a href="http://lh4.ggpht.com/-Y3p0cgpz3-I/UgoUp5sGceI/AAAAAAAADys/l3foD6-lMpE/s1600-h/image%25255B21%25255D.png"><img alt="image" border="0" src="http://lh6.ggpht.com/-B_Euuzu7f6w/UgoUqY9OEtI/AAAAAAAADy0/xVpZheRVNws/image_thumb%25255B7%25255D.png?imgmax=800" height="451" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="327" /></a><br />
+<br />
+3、Solution Explorer<br />
+这里是显示你的project 有什么文件等等<br />
+<a href="http://lh3.ggpht.com/-ujp8h4xPmK8/UgoUrHFY71I/AAAAAAAADy8/diK9LSZd5Ew/s1600-h/image%25255B24%25255D.png"><img alt="image" border="0" src="http://lh6.ggpht.com/-K2r0gBxYEZg/UgoUrmdNr6I/AAAAAAAADzE/XUBqgnpVfQo/image_thumb%25255B8%25255D.png?imgmax=800" height="433" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="311" /></a><br />
+<br />
+没有显示的话，可以到View &gt; Solution Explorer<br />
+<a href="http://lh5.ggpht.com/-2tlBhoHJid0/UgoUsN2KFCI/AAAAAAAADzM/rT9SWN12Su8/s1600-h/image%25255B27%25255D.png"><img alt="image" border="0" src="http://lh3.ggpht.com/-rwhexg5QEZ8/UgoUs3ulMrI/AAAAAAAADzU/LRXKCG5aS_g/image_thumb%25255B9%25255D.png?imgmax=800" height="355" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="326" /></a><br />
+<br />
+4、Properies<br />
+这是显示控件、窗体等等所拥有的properties（属性），还有event（事件）<br />
+例如这里显示了Button的属性<br />
+<a href="http://lh4.ggpht.com/-ZPyP0C4qa9k/UgoUtQMc00I/AAAAAAAADzc/onEk4L1AUx0/s1600-h/image%25255B30%25255D.png"><img alt="image" border="0" src="http://lh6.ggpht.com/-JfjqIZGIMqU/UgoUtxyAxCI/AAAAAAAADzk/39YY_pk6d3o/image_thumb%25255B10%25255D.png?imgmax=800" height="521" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="538" /></a><br />
+<br />
+你可以到View &gt; Properties 显示它<br />
+<a href="http://lh6.ggpht.com/-Q2ptCLo4gcw/UgoVcP57DiI/AAAAAAAADz0/cAmHVgKchrs/s1600-h/image%25255B33%25255D.png"><img alt="image" border="0" src="http://lh4.ggpht.com/-5AjPESjIHUE/UgoVcjx_6-I/AAAAAAAADz8/BFspBUONr70/image_thumb%25255B11%25255D.png?imgmax=800" height="668" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="330" /></a><br />
+<br />
+如果你不要一些窗口，可以点击上方的小打叉关闭：<br />
+<a href="http://lh6.ggpht.com/-ZCS7NxEdfds/UgoVdE3XtWI/AAAAAAAAD0E/T4wi4sgWmBg/s1600-h/image%25255B36%25255D.png"><img alt="image" border="0" src="http://lh6.ggpht.com/-7I9hxM-l2Fk/UgoVdphBo2I/AAAAAAAAD0M/XbJD1BpcAcc/image_thumb%25255B12%25255D.png?imgmax=800" height="162" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="325" /></a><br />
+<br />
+而如果你要把它hide起来呢，就点击上方的pin按钮（这只是暂时性隐藏，如果要显示的话，可以把滑鼠hover旁边的按钮，或者是点击，看图会比较明白）<br />
+<a href="http://lh5.ggpht.com/-K1VNNHwOJP8/UgoVeAtykpI/AAAAAAAAD0U/zsxhgUoMoRo/s1600-h/image%25255B39%25255D.png"><img alt="image" border="0" src="http://lh6.ggpht.com/-YMTohe1UU_U/UgoVeoodSAI/AAAAAAAAD0c/dnhFEquHD34/image_thumb%25255B13%25255D.png?imgmax=800" height="86" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="350" /></a><br />
+如果要恢复显示，就把滑鼠hover在旁边的按钮：<br />
+<a href="http://lh4.ggpht.com/-yqF7m8a4dfI/UgoVfP7ls4I/AAAAAAAAD0k/Yt04vsRdCOY/s1600-h/image%25255B42%25255D.png"><img alt="image" border="0" src="http://lh6.ggpht.com/-5B__c4eu7mQ/UgoVfjUZQqI/AAAAAAAAD0s/ja_5PMQhx0E/image_thumb%25255B14%25255D.png?imgmax=800" height="259" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="335" /></a><br />
+<br />
+<h1 align="center">
+【要怎么保存project？】</h1>
+<div align="left">
+你可以到File &gt; Save xxx.cs来保存当前编辑着的文件，或者是按下Ctrl + S</div>
+<div align="left">
+<a href="http://lh5.ggpht.com/-TUanXf_jz2k/UgoVgJpO9YI/AAAAAAAAD00/qq88ZK623BA/s1600-h/image%25255B45%25255D.png"><img alt="image" border="0" src="http://lh4.ggpht.com/-KaK6fm26Hqs/UgoVg2zePAI/AAAAAAAAD00/cj8MFwJeB1k/image_thumb%25255B15%25255D.png?imgmax=800" height="417" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="349" /></a></div>
+<div align="left">
+<br /></div>
+<div align="left">
+也可以点击Save All 来保存所有文件，或者是按下Ctrl + Shift + S</div>
+<div align="left">
+<a href="http://lh6.ggpht.com/-N_aecvR0AYE/UgoVhni1gDI/AAAAAAAAD08/kb9kxIL8ocA/s1600-h/image%25255B48%25255D.png"><img alt="image" border="0" src="http://lh3.ggpht.com/-HgPOlyQTI0M/UgoViF0ocVI/AAAAAAAAD1E/756SZn67Io8/image_thumb%25255B16%25255D.png?imgmax=800" height="415" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; margin: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="350" /></a></div>

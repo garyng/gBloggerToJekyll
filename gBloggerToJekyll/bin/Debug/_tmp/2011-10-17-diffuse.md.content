@@ -1,0 +1,28 @@
+<div class="separator" style="clear: both; text-align: left;">
+<span class="Apple-style-span" style="background-color: white; color: #333333; font-family: Verdana, Simsun, sans-serif; font-size: 13px; line-height: 20px;">有时，我们需要对一个文件的不同版本进行比较，以了解其差异。这时候专门的文件比较工具就派上用场了。今天我们介绍的 Diffuse 就是这样一个用来对文本文件进行比较和合并的专业工具。</span></div>
+<div class="separator" style="clear: both; text-align: left;">
+<span class="Apple-style-span" style="background-color: white; color: #333333; font-family: Verdana, Simsun, sans-serif; font-size: 13px; line-height: 20px;"><strong style="margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;"></strong></span></div>
+<a name='more'></a><span class="Apple-style-span" style="background-color: white; color: #333333; font-family: Verdana, Simsun, sans-serif; font-size: 13px; line-height: 20px;"><strong style="margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;"><br /></strong></span><br />
+<div class="separator" style="clear: both; text-align: left;">
+<span class="Apple-style-span" style="background-color: white; color: #333333; font-family: Verdana, Simsun, sans-serif; font-size: 13px; line-height: 20px;"><strong style="margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">Diffuse 的特色</strong></span></div>
+<span class="Apple-style-span" style="background-color: white; color: #333333; font-family: Verdana, Simsun, sans-serif; font-size: 13px; line-height: 20px;"></span><br />
+<div style="margin-bottom: 10px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">
+<span class="Apple-style-span" style="background-color: white; color: #333333; font-family: Verdana, Simsun, sans-serif; font-size: 13px; line-height: 20px;">当前，Diffuse 具有如下特色：</span></div>
+<span class="Apple-style-span" style="background-color: white; color: #333333; font-family: Verdana, Simsun, sans-serif; font-size: 13px; line-height: 20px;">
+</span><br />
+<ul style="list-style-position: inside; list-style-type: disc; margin-bottom: 20px; margin-left: 20px; margin-right: 20px; margin-top: 20px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;"><span class="Apple-style-span" style="background-color: white; color: #333333; font-family: Verdana, Simsun, sans-serif; font-size: 13px; line-height: 20px;">
+<li style="margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">可视化比较，非常直观。</li>
+<li style="margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">支持两相比较和三相比较。这就是说，使用 Diffuse 你可以同时比较两个或三个文本文件。</li>
+<li style="margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">支持常见的版本控制工具，包括 CVS、subversion、git、mercurial 等。你可以通过 Diffuse 直接从版本控制系统获取源代码，以便对其进行比较和合并。</li>
+<li style="margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">支持像 C++、Python、Java、XML 等语言的语法高亮显示。</li>
+<li style="margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">能够直接在 Diffuse 中编辑文件。</li>
+<li style="margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">支持 UTF-8 编码。</li>
+<li style="margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;">可以使用快捷键轻松导航。</li>
+</span></ul>
+<span class="Apple-style-span" style="background-color: white; color: #333333; font-family: Verdana, Simsun, sans-serif; font-size: 13px; line-height: 20px;">
+</span><br />
+<span class="Apple-style-span" style="background-color: white; color: #333333; font-family: Verdana, Simsun, sans-serif; font-size: 13px; line-height: 20px;"></span><br />
+<div>
+<span class="Apple-style-span" style="background-color: white; color: #333333; font-family: Verdana, Simsun, sans-serif; font-size: 13px; line-height: 20px;">下载网址：<a href="http://diffuse.sourceforge.net/download.html">http://diffuse.sourceforge.net/download.html</a></span></div>
+<span class="Apple-style-span" style="background-color: white; color: #333333; font-family: Verdana, Simsun, sans-serif; font-size: 13px; line-height: 20px;">
+</span>

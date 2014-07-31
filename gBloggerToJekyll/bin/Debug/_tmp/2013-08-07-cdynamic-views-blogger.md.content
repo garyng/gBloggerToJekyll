@@ -1,0 +1,81 @@
+折腾了那么久，发现之前发过的<a href="http://garyngzhongbo.blogspot.com/2013/05/vsvisual-studio-copy-code-as-html.html">【教程】【VS插件】Visual Studio Copy Code As HTML</a> 又不能用了，于是花了整个下午来研究研究。<br />
+刚开始我突然想到了Google Code Prettify (<a href="http://code.google.com/p/google-code-prettify/" title="http://code.google.com/p/google-code-prettify/">http://code.google.com/p/google-code-prettify/</a>)，但是Blogger Dynamic Views(动态视图)咋搞都装不上，过后在StackOverflow看到了一片文章，里面提到了SyntaxHighlighter (<a href="http://alexgorbatchev.com/SyntaxHighlighter/" title="http://alexgorbatchev.com/SyntaxHighlighter/">http://alexgorbatchev.com/SyntaxHighlighter/</a>)，之前试过了，还是不能…<br />
+但是我灰常喜欢SyntaxHighlighter的高亮着色，又花了我N小时，终于找到了适合Blogger 动态视图的代码：<br />
+首先先到Blogger 管理面板 &gt;&nbsp; 模板 &gt; 点击 修改HTML （以前不能修改，现在能了）<br />
+<a href="http://lh6.ggpht.com/-2mWMLtbl5IE/UgJWv1NAzGI/AAAAAAAADqI/0hrJaBh50P4/s1600-h/image%25255B4%25255D.png"><img alt="image" border="0" height="420" src="http://lh6.ggpht.com/-9stKwoauYzw/UgJWwpm1KBI/AAAAAAAADqQ/lRZ-Ng7GfN0/image_thumb%25255B2%25255D.png?imgmax=800" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="501" /></a><br />
+<br />
+然后在&lt;head&gt; 之后的空白部分加入以下代码： <br />
+<pre class="brush: js">&lt;link href='http://alexgorbatchev.com/pub/sh/2.1.364/styles/shCore.css' rel='stylesheet' type='text/css'/&gt; 
+&lt;link href='http://alexgorbatchev.com/pub/sh/2.1.364/styles/shThemeDefault.css' rel='stylesheet' type='text/css'/&gt; 
+&lt;script src='http://alexgorbatchev.com/pub/sh/2.1.364/scripts/shCore.js' type='text/javascript'&gt;&lt;/script&gt; 
+&lt;script src='http://alexgorbatchev.com/pub/sh/2.1.364/scripts/shBrushCpp.js' type='text/javascript'&gt;&lt;/script&gt; 
+&lt;script src='http://alexgorbatchev.com/pub/sh/2.1.364/scripts/shBrushCSharp.js' type='text/javascript'&gt;&lt;/script&gt; 
+&lt;script src='http://alexgorbatchev.com/pub/sh/2.1.364/scripts/shBrushCss.js' type='text/javascript'&gt;&lt;/script&gt; 
+&lt;script src='http://alexgorbatchev.com/pub/sh/2.1.364/scripts/shBrushJava.js' type='text/javascript'&gt;&lt;/script&gt; 
+&lt;script src='http://alexgorbatchev.com/pub/sh/2.1.364/scripts/shBrushJScript.js' type='text/javascript'&gt;&lt;/script&gt; 
+&lt;script src='http://alexgorbatchev.com/pub/sh/2.1.364/scripts/shBrushPhp.js' type='text/javascript'&gt;&lt;/script&gt; 
+&lt;script src='http://alexgorbatchev.com/pub/sh/2.1.364/scripts/shBrushPython.js' type='text/javascript'&gt;&lt;/script&gt; 
+&lt;script src='http://alexgorbatchev.com/pub/sh/2.1.364/scripts/shBrushRuby.js' type='text/javascript'&gt;&lt;/script&gt; 
+&lt;script src='http://alexgorbatchev.com/pub/sh/2.1.364/scripts/shBrushSql.js' type='text/javascript'&gt;&lt;/script&gt; 
+&lt;script src='http://alexgorbatchev.com/pub/sh/2.1.364/scripts/shBrushVb.js' type='text/javascript'&gt;&lt;/script&gt; 
+&lt;script src='http://alexgorbatchev.com/pub/sh/2.1.364/scripts/shBrushXml.js' type='text/javascript'&gt;&lt;/script&gt; 
+&lt;script src='http://alexgorbatchev.com/pub/sh/2.1.364/scripts/shBrushPerl.js' type='text/javascript'&gt;&lt;/script&gt; 
+&lt;script language='javascript'&gt; 
+SyntaxHighlighter.config.bloggerMode = true;
+SyntaxHighlighter.config.clipboardSwf = 'http://alexgorbatchev.com/pub/sh/2.1.364/scripts/clipboard.swf';
+SyntaxHighlighter.all();
+&lt;/script&gt;
+</pre><br />
+<script type="text/javascript">
+SyntaxHighlighter.highlight();
+</script><br />
+<br />
+&nbsp; <br />
+当然你可以去除一些没有用到的css<br />
+<br />
+<a href="http://lh4.ggpht.com/-l4A2ZCnm5A4/UgJWxmlzljI/AAAAAAAADqY/Xf4QLuuVobk/s1600-h/image%25255B7%25255D.png"><img alt="image" border="0" height="459" src="http://lh5.ggpht.com/-zk5xR0dBnf4/UgJWyZkBkGI/AAAAAAAADqg/evaMy6bxXS0/image_thumb%25255B3%25255D.png?imgmax=800" style="background-image: none; border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="1081" /></a><br />
+<br />
+<br />
+<br />
+然后点击保存模板！<br />
+<br />
+<br />
+<br />
+如果你要贴代码，在Blogger 的帖子编辑器哪儿，选择HTML<br />
+<br />
+先把代码HTML Encode 先（这边）<br />
+<br />
+贴以下代码：<br />
+<br />
+<pre class="brush: js">&lt;pre class="brush: 这边是语言"&gt;
+YOUR CODE HERE &lt;&lt; 这边放代码
+&lt;/pre&gt;
+</pre><br />
+<br />
+语言种类看这边：<a href="http://alexgorbatchev.com/SyntaxHighlighter/manual/brushes/" title="http://alexgorbatchev.com/SyntaxHighlighter/manual/brushes/">http://alexgorbatchev.com/SyntaxHighlighter/manual/brushes/</a><br />
+<br />
+当然如果你用的是Blogger动态模板的话，你还要加入这个：<br />
+<br />
+<br />
+<pre class="brush: js">&lt;script type="text/javascript"&gt;
+SyntaxHighlighter.highlight();
+&lt;/script&gt;
+</pre><br />
+<br />
+<br />
+<br />
+就可以了！<br />
+<br />
+另外，如果你懒惰一直找代码来贴的话，你可以下载我写的C# 程序：<br />
+<br />
+<a href="http://lh3.ggpht.com/-cf2Vwv8eqyc/UgJdLRe3mnI/AAAAAAAADqw/tUtJhqz-sPg/s1600-h/image%25255B13%25255D.png"><img alt="image" border="0" height="468" src="http://lh5.ggpht.com/-PEQeh8QJHw4/UgJdL4unNbI/AAAAAAAADq4/Lk6EI7XRfdc/image_thumb%25255B5%25255D.png?imgmax=800" style="background-image: none; border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline; padding-left: 0px; padding-right: 0px; padding-top: 0px;" title="image" width="836" /></a><br />
+<br />
+<br />
+<br />
+<strong>*需要.net 2.0 才能运行*</strong><br />
+<br />
+<br />
+<br />
+<span style="font-size: large;">这边是源代码（VS2010 C#）：</span><a href="https://dl.dropboxusercontent.com/u/43619472/%E6%89%B9%E5%A4%84%E7%90%86/C%23/SyntaxHighlighter/SyntaxHighlighter.zip"><span style="font-size: large;">Dropbox</span></a><span style="font-size: large;">&nbsp;&nbsp; </span><a href="https://mega.co.nz/#!HMQhgA6B!Zymk43i0UuNMDzUMb0n2TigQwQEaNUfwGyZaeQZscGk"><span style="font-size: large;">MEGA</span></a><span style="font-size: large;">&nbsp;&nbsp; </span><a href="http://www.mediafire.com/download/gth9g20k0k11lnu/SyntaxHighlighter.zip"><span style="font-size: large;">Mediafire</span></a><br />
+<br />
+<span style="font-size: large;">这里是exe：</span><a href="https://dl.dropboxusercontent.com/u/43619472/%E6%89%B9%E5%A4%84%E7%90%86/C%23/SyntaxHighlighter/SyntaxHighlighter.exe"><span style="font-size: large;">Dropbox</span></a><span style="font-size: large;">&nbsp; </span><a href="https://mega.co.nz/#!jBgTURbR!UngJgUPkzb_DSiCDhgtWQG3AWAoYv8hm6v_wUNitLew"><span style="font-size: large;">MEGA</span></a><span style="font-size: large;">&nbsp; </span><a href="http://www.mediafire.com/download/9ighhuqeg5u764i/SyntaxHighlighter.exe"><span style="font-size: large;">MediaFire</span></a>

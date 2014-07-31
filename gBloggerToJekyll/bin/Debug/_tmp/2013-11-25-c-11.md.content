@@ -1,0 +1,50 @@
+你：我要怎么把一堆学生的名字储存在一个变量里面？<br />
+这个时候，数组就很有用了<br />
+数组基本上是一个变量，但是变量里面有多个其他相同类型但是不同值的变量<br />
+<br />
+先添加一个Button 还有一个textbox<br />
+<a href="http://lh6.ggpht.com/-BnE3M8j_1Yk/UocZpOXqXJI/AAAAAAAAF1c/H2ev_ey69TY/s1600-h/image%25255B32%25255D.png"><img alt="image" border="0" src="http://lh4.ggpht.com/-rkqvxb2aZGk/UocZp5GpfBI/AAAAAAAAF1k/-6GoIxIpA78/image_thumb%25255B10%25255D.png?imgmax=800" height="374" style="border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline;" title="image" width="361" /></a> <br />
+然后双击<br />
+<a href="http://lh3.ggpht.com/-l-4Sziut_EM/UocZq5ts3bI/AAAAAAAAF1s/W2S2qqWWcS8/s1600-h/image%25255B8%25255D.png"><img alt="image" border="0" src="http://lh3.ggpht.com/-Yq_SgMoOCqg/UocZrkalCLI/AAAAAAAAF10/VGheruPI04E/image_thumb%25255B2%25255D.png?imgmax=800" height="82" style="border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline;" title="image" width="408" /></a> <br />
+<br />
+比如说<br />
+你有 Adam, Bryan , Bob, Chris, John<br />
+5个学生<br />
+然后你想创建一个数组储存的话：<br />
+首先输入：<br />
+<a href="http://lh6.ggpht.com/-nLRd1vdHwvA/UocZsc0hf4I/AAAAAAAAF18/CvW9N-CUu9M/s1600-h/image%25255B11%25255D.png"><img alt="image" border="0" src="http://lh5.ggpht.com/-xRxs53Z7Vzs/UocZs9jWQ_I/AAAAAAAAF2E/m_GC55keyZo/image_thumb%25255B3%25255D.png?imgmax=800" height="83" style="border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline;" title="image" width="410" /></a> <br />
+[] 代表我们要声明的变量为一个string数组<br />
+然后就跟着变量名<br />
+<a href="http://lh3.ggpht.com/-jIXg1uib02U/UocZtfzuo6I/AAAAAAAAF2M/o-W_DWD3VEw/s1600-h/image%25255B14%25255D.png"><img alt="image" border="0" src="http://lh3.ggpht.com/-TKhgBIV2mcE/UocZuJYPZsI/AAAAAAAAF2U/_sLwtTMtpLI/image_thumb%25255B4%25255D.png?imgmax=800" height="83" style="border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline;" title="image" width="410" /></a> <br />
+然后在加两个{}<br />
+<a href="http://lh3.ggpht.com/-s5kc7INl2ao/UocZu1egOiI/AAAAAAAAF2c/NMyvFeVbPaQ/s1600-h/image%25255B17%25255D.png"><img alt="image" border="0" src="http://lh4.ggpht.com/-WpT_lkVVmZA/UocZvck7xAI/AAAAAAAAF2k/AJu2vwB1Oy0/image_thumb%25255B5%25255D.png?imgmax=800" height="83" style="border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline;" title="image" width="410" /></a> <br />
+{}里面就输入学生的名字：<br />
+<a href="http://lh6.ggpht.com/-kp7rHSzRw4o/UocZwIq6HFI/AAAAAAAAF2s/_RDuRBW9A-0/s1600-h/image%25255B23%25255D.png"><img alt="image" border="0" src="http://lh4.ggpht.com/-HbheMAGjMTA/UocZw_tlEFI/AAAAAAAAF20/y1YkZO3MZNA/image_thumb%25255B7%25255D.png?imgmax=800" height="90" style="border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; display: inline;" title="image" width="508" /></a> <br />
+这样你就有一个数组变量了！<br />
+<br />
+你：我要怎么获取某一个学生的名字啊？<br />
+数组是这样储存的：<br />
+<a href="http://lh5.ggpht.com/-nJlyq4YDesE/UocZxXMwv1I/AAAAAAAAF28/ox8uhqcoQVE/s1600-h/image%25255B29%25255D.png"><img alt="image" border="0" src="http://lh4.ggpht.com/-hRJOiIDWs2g/UocZx0pV-AI/AAAAAAAAF3E/4YTUNUYYBm0/image_thumb%25255B9%25255D.png?imgmax=800" height="187" style="border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline;" title="image" width="221" /></a><br />
+<blockquote class="bq_info">
+注意：每一个数组的index都是以0开始的</blockquote>
+如果要获取Adam 的话就这样：<br />
+<a href="http://lh4.ggpht.com/-UpZtu_Z7wHQ/UocZytgqbOI/AAAAAAAAF3M/4wTdEvEBQP4/s1600-h/image%25255B35%25255D.png"><img alt="image" border="0" src="http://lh6.ggpht.com/-ZZd9w3uKOmU/UocZzQ4BK2I/AAAAAAAAF3U/VRSqV7rEXyg/image_thumb%25255B11%25255D.png?imgmax=800" height="98" style="border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline;" title="image" width="509" /></a> <br />
+在[]里面就是index<br />
+因为Adam 是第一个<br />
+<a href="http://lh5.ggpht.com/-fNOoiLsVsY4/UocZz7IancI/AAAAAAAAF3c/u2X3PWZZuPg/s1600-h/image%25255B38%25255D.png"><img alt="image" border="0" src="http://lh3.ggpht.com/-DZk3b4RDKrU/UocZ0hLRRvI/AAAAAAAAF3k/_KDfYKoteGQ/image_thumb%25255B12%25255D.png?imgmax=800" height="300" style="border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline;" title="image" width="300" /></a> <br />
+如果要Chris的话：<br />
+<a href="http://lh6.ggpht.com/-alrB3l2sC14/UocZ1e7xfCI/AAAAAAAAF3s/yrnirp7AGAk/s1600-h/image%25255B44%25255D.png"><img alt="image" border="0" src="http://lh6.ggpht.com/-DYufzwKfA70/UocZ1_Kr4MI/AAAAAAAAF30/9UcmN6Jtxcg/image_thumb%25255B14%25255D.png?imgmax=800" height="94" style="border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline;" title="image" width="507" /></a> <br />
+<a href="http://lh4.ggpht.com/-jW3Y98M-58k/UocZ2oiKeDI/AAAAAAAAF38/S5sQiOaq6AI/s1600-h/image%25255B41%25255D.png"><img alt="image" border="0" src="http://lh4.ggpht.com/-PMXI2P68Gig/UocZ3Zcb7zI/AAAAAAAAF4E/mg68P_T98cg/image_thumb%25255B13%25255D.png?imgmax=800" height="300" style="border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline;" title="image" width="300" /></a> <br />
+<br />
+你：如果我只要一个有5个空位的array呢？<br />
+就直接这样申明：<br />
+<a href="http://lh3.ggpht.com/-_M_oY1t3qB4/UocZ37ucDiI/AAAAAAAAF4M/Es6wB1R2yGc/s1600-h/image%25255B47%25255D.png"><img alt="image" border="0" src="http://lh4.ggpht.com/-yjH1D6uRRsQ/UocZ4vD2XCI/AAAAAAAAF4U/COt_5G1MGok/image_thumb%25255B15%25255D.png?imgmax=800" height="82" style="border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline;" title="image" width="417" /></a> <br />
+[]里面跟着整个数组的数量<br />
+如果要更改某一个数组的index中的值的话<br />
+直接赋值就好了：<br />
+<a href="http://lh6.ggpht.com/-pGJDoSdUTZc/UocZ5ZRx1bI/AAAAAAAAF4c/S2_NRzt__gs/s1600-h/image%25255B50%25255D.png"><img alt="image" border="0" src="http://lh6.ggpht.com/-81RUyyv3ENo/UocZ5zkbNHI/AAAAAAAAF4k/IaESQ7IUlLs/image_thumb%25255B16%25255D.png?imgmax=800" height="109" style="border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline;" title="image" width="428" /></a> <br />
+<a href="http://lh5.ggpht.com/-a6j1nKAxOG4/UocZ6ZMEV5I/AAAAAAAAF4s/wy-Gvo_FuDw/s1600-h/image%25255B53%25255D.png"><img alt="image" border="0" src="http://lh6.ggpht.com/-VkttmsbHu-4/UocZ7Pkue1I/AAAAAAAAF40/4MO04BOfDnY/image_thumb%25255B17%25255D.png?imgmax=800" height="300" style="border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline;" title="image" width="300" /></a> <br />
+<br />
+数组不一定要string<br />
+也可以其他任何类型，比如int、bool等等<br />
+<a href="http://lh5.ggpht.com/-qGucrH62D1k/UocZ7452GiI/AAAAAAAAF48/C3My1fcMTEI/s1600-h/image%25255B56%25255D.png"><img alt="image" border="0" src="http://lh6.ggpht.com/-c7SOrStnHT4/UocZ8qrsDzI/AAAAAAAAF5A/hlgiIvVp0kU/image_thumb%25255B18%25255D.png?imgmax=800" height="108" style="border-bottom: 0px; border-left: 0px; border-right: 0px; border-top: 0px; display: inline;" title="image" width="414" /></a>

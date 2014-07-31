@@ -1,0 +1,55 @@
+<a href="http://translate.googleusercontent.com/translate_c?act=url&amp;hl=zh-CN&amp;ie=UTF8&amp;prev=_t&amp;rurl=translate.google.com&amp;sl=en&amp;tl=zh-CN&amp;twu=1&amp;u=http://www.flickr.com/photos/esorhjy/517322504/&amp;usg=ALkJrhjbNCkEU1ERrNH8IZDFufP2iDwUaQ"><img alt="apa04" height="183" src="http://farm1.static.flickr.com/238/517322504_5f083f3901_o.png" width="428" /></a> <br />
+以下的叙述，适用于<strong>XP和2003</strong>两种Windows的作业系统，我们在繁体中文XP中Unicode的 AppLocale公用程式 “。今天这篇处理，是我收集整理网路上一些Applocale的介绍与延伸应用，并加入基本操作方式教学的一篇统合笔记。 <br />
+<ul>
+<li><strong>微软AppLocale</strong></li>
+</ul>
+微软自己是这么介绍这个工具的<span style="background-color: #cccccc;">：“以的Unicode为基础的平台（例如Windows XP中）会模拟执行non - Unicode的 （或是非Unicode的登入程式的语言），将登入程式的非Unicode的文字免转换成Unicode的。非Unicode的 （UI）就会显示成乱码...... AppLocale（或<strong>应用区域设置</strong> ）只能暂时解决这些在以UNICODE（UTF - 16）为基础的Windows XP的系统中执行non - Unicode的登入程式的限制。AppLocale 的Unicode之间进行转换。“</span> <br />
+<ul>
+<li>执行Applocale，按下﹝浏览﹞，选择你想要执行的程式。</li>
+</ul>
+<a href="http://translate.googleusercontent.com/translate_c?act=url&amp;hl=zh-CN&amp;ie=UTF8&amp;prev=_t&amp;rurl=translate.google.com&amp;sl=en&amp;tl=zh-CN&amp;twu=1&amp;u=http://www.flickr.com/photos/esorhjy/517280986/&amp;usg=ALkJrhjHN1vFw5lFiXCMzpyX7qiDWvQyrw"><img alt="apa01" height="376" src="http://farm1.static.flickr.com/189/517280986_bc90f9ac6f_o.png" width="480" /></a> <br />
+<ul>
+<li>选择该程式的语言。</li>
+</ul>
+<a href="http://translate.googleusercontent.com/translate_c?act=url&amp;hl=zh-CN&amp;ie=UTF8&amp;prev=_t&amp;rurl=translate.google.com&amp;sl=en&amp;tl=zh-CN&amp;twu=1&amp;u=http://www.flickr.com/photos/esorhjy/517306837/&amp;usg=ALkJrhjC5Iov8wVj_qL2pNbLJr5HF8mNyQ"><img alt="apa02" height="597" src="http://farm1.static.flickr.com/253/517306837_89c900d6c6_o.png" width="480" /></a> <br />
+<ul>
+<li></li>
+</ul>
+<a href="http://translate.googleusercontent.com/translate_c?act=url&amp;hl=zh-CN&amp;ie=UTF8&amp;prev=_t&amp;rurl=translate.google.com&amp;sl=en&amp;tl=zh-CN&amp;twu=1&amp;u=http://www.flickr.com/photos/esorhjy/517280714/&amp;usg=ALkJrhiF9lfaI0nxoAlxrM3Kp4RrC6hO2A"><img alt="apa03" height="376" src="http://farm1.static.flickr.com/227/517280714_5ac5338d3b_o.png" width="480" /></a> <br />
+<ul>
+<li><strong>Applocale的问题</strong></li>
+</ul>
+在使用过Applocale后，可能会影响到以后的某些程式安装，具体情形是“使用过AppLocale后，”C：\ WINDOWS \ AppPatch文件“这个免夹可能会出现”AppLoc.tmp“这个档案此档案可能会造成的“Windows Installer”运作错误，不但安装程式的画面变成乱码，还会随着安装程序，把乱码带入注册表，造成许多问题，这应该算是AppLocale的 <br />
+<ul>
+<li><strong>pApplocale：Applocale非官方修正版</strong></li>
+</ul>
+Applocale的BUG <strong>作者为Piaip，</strong>以下引自其原文介绍<strong><span style="background-color: #cccccc;">：“微软AppLocale，出名的切换语系工具，不过栭有很多问题，包括你装了后MSI安装程序都会用上次设定的语系跑等等我修正了AppLocale，改为</span><a href="http://ntu.csie.org/~piaip/papploc.msi"><span style="background-color: #cccccc;">pAppLocale</span></a><span style="background-color: #cccccc;"> ，除了修正错误外还让你建捷径后执行的程式不会再跑对话窗韩你。“</span></strong> <br />
+<ul> <ul>
+<li><span style="color: red;">pApplocale作者网页： </span><a href="http://translate.googleusercontent.com/translate_c?act=url&amp;hl=zh-CN&amp;ie=UTF8&amp;prev=_t&amp;rurl=translate.google.com&amp;sl=en&amp;tl=zh-CN&amp;twu=1&amp;u=http://ntu.csie.org/~piaip/index.html&amp;usg=ALkJrhjoJ5cw1d_8gkj0sl2-qU9sxp6tIQ"><span style="color: red;">​​http://ntu.csie.org/〜piaip / index.html的</span></a> </li>
+<li><span style="color: red;">pApplocale下载点： </span><a href="http://ntu.csie.org/~piaip/papploc.msi"><span style="color: red;">http://ntu.csie.org/〜piaip / papploc.msi</span></a> </li>
+<li><span style="color: red;">其它</span><a href="http://translate.googleusercontent.com/translate_c?act=url&amp;hl=zh-CN&amp;ie=UTF8&amp;prev=_t&amp;rurl=translate.google.com&amp;sl=en&amp;tl=zh-CN&amp;twu=1&amp;u=http://www.badongo.com/file/3208040&amp;usg=ALkJrhibSdDHpvLSsaLriV3itYsJI587ug"><span style="color: red;">下载点一</span></a><span style="color: red;"> ， </span><a href="http://translate.googleusercontent.com/translate_c?act=url&amp;hl=zh-CN&amp;ie=UTF8&amp;prev=_t&amp;rurl=translate.google.com&amp;sl=en&amp;tl=zh-CN&amp;twu=1&amp;u=http://z32.zupload.com/download.php%3Ffile%3Dgetfile%26filepath%3D32899&amp;usg=ALkJrhi7CawMRp2gHJRw0zoDJUCUo9A_Sw"><span style="color: red;">下载点二</span></a></li>
+</ul>
+</ul>
+安装过程与执行方式都和原本无异。 <br />
+<ul>
+<li><strong>在滑鼠【快速选单】中加入Applocale快捷选项对话</strong></li>
+</ul>
+<strong>————————以下转贴自ZEGii P2PZONE。</strong> <br />
+使用AppLocale时每次都要按开始&gt;程式集&gt;的Microsoft AppLocale&gt; AppLocale.exe<br />须时费久〜因此小弟将之简单整合于右键内，<br />只须执行以下章档叧可以各来源如下： <br />
+<strong>日本语执行的。reg</strong> <br />
+<strong>代码：</strong> <br />
+<blockquote>
+Windows注册表编辑器5.00版<br />[HKEY_CLASSES_ROOT \ exefile \ SHELL \日本语执行]<br />[HKEY_CLASSES_ROOT \ exefile \ SHELL \日本语执行\命令]<br />@ =“C：\ \ WINDOWS \ \ AppPatch文件\ \ AppLoc.exe \”％1 \“\”/ L0411 \“”</blockquote>
+<strong>简体中文执行的。reg</strong> <br />
+<strong>代码：</strong> <br />
+<blockquote>
+Windows注册表编辑器5.00版<br />[HKEY_CLASSES_ROOT \ exefile \ SHELL \简体中文执行]<br />[HKEY_CLASSES_ROOT \ exefile \ SHELL \简体中文执行\命令]<br />@ =“C：\ \ WINDOWS \ \ AppPatch文件\ \ AppLoc.exe \”％1 \“\”/ L0804 \“”</blockquote>
+<strong>繁体中文执行的。reg</strong> <br />
+<strong>代码：</strong> <br />
+<blockquote>
+Windows注册表编辑器5.00版<br />[HKEY_CLASSES_ROOT \ exefile \ SHELL \繁体中文执行]<br />[HKEY_CLASSES_ROOT \ exefile \ SHELL \繁体中文执行\命令]<br />@ =“C：\ \ WINDOWS \ \ AppPatch文件\ \ AppLoc.exe \”％1 \“\”/ L0404 \“”</blockquote>
+<strong>韩国语执行的。reg</strong> <br />
+<strong>代码：</strong> <br />
+<blockquote>
+Windows注册表编辑器5.00版<br />[HKEY_CLASSES_ROOT \ exefile \ SHELL \韩国语执行]<br />[HKEY_CLASSES_ROOT \ exefile \ SHELL \韩国语执行\命令]<br />@ =“C：\ \ WINDOWS \ \ AppPatch文件\ \ AppLoc.exe \”％1 \“\”/ L0412 \“”</blockquote>
+<strong><span style="color: red;">——————以上欢迎转贴，请注明原创来自ZEGii @ P2PZONE，并为处理保持原的整性</span></strong>

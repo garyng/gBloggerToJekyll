@@ -1,0 +1,86 @@
+最近电脑用得少了。。<br />
+加上又要开学了。。<br />
+最近越来越少发帖了。。<br />
+<br />
+没用电脑这期间，猛学Win32API<br />
+这个新的软件<br />
+就是学API后的收获～<br />
+<br />
+能让任何窗口透明的软件<br />
+<br />
+<div class="separator" style="clear: both; text-align: left;">
+<a href="http://3.bp.blogspot.com/-VSve64uqh50/TvhSy-LO_dI/AAAAAAAABCo/YH3yR3RHR64/s1600/1324896916_Download.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-VSve64uqh50/TvhSy-LO_dI/AAAAAAAABCo/YH3yR3RHR64/s1600/1324896916_Download.png" /></a>&nbsp;<span class="Apple-style-span" style="font-size: large;"><b>下载地址：<a href="http://dl.dropbox.com/u/43619472/%E6%89%B9%E5%A4%84%E7%90%86/VB6/MakeAnyWinTrans/%E7%AA%97%E4%BD%93%E9%80%8F%E6%98%8E.zip">窗体透明.zip</a></b></span></div>
+<div class="separator" style="clear: both; text-align: left;">
+<span class="Apple-style-span" style="font-size: large;"><br /></span></div>
+<div class="separator" style="clear: both; text-align: left;">
+注：我不能保证能让每个窗口都透明</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+</div>
+<div class="separator" style="clear: both; text-align: left;">
+<b><u>v1.0.22</u></b></div>
+<div class="separator" style="clear: both; text-align: left;">
+<b>基础功能：设置某个窗体的透明度</b></div>
+<div class="separator" style="clear: both; text-align: left;">
+<b>1、能调整透明度</b></div>
+<div class="separator" style="clear: both; text-align: left;">
+<b>2、可以以鼠标所在/经过的窗口句柄来设置透明度</b></div>
+<div class="separator" style="clear: both; text-align: left;">
+<b>3、也可以以窗口的名字来设置该窗体的透明度</b></div>
+<div class="separator" style="clear: both; text-align: left;">
+<b>4、内置窗口名查询器，能更方便的查询某个窗口的名字</b></div>
+<div class="separator" style="clear: both; text-align: left;">
+<b>5、能去掉某个窗口的透明属性</b></div>
+<div class="separator" style="clear: both; text-align: left;">
+<b>6、能设置/取消某个窗体在最前的属性</b></div>
+<br />
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+软件截图：</div>
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="http://4.bp.blogspot.com/-une62GL8BNU/TwLFzdlXcMI/AAAAAAAABHM/nx_rwWexKps/s1600/2012-01-03+17-01-42_%25E8%25AE%25A9%25E4%25BB%25BB%25E4%25BD%2595%25E7%25AA%2597%25E4%25BD%2593%25E9%2580%258F%25E6%2598%258E-By+GaryNg+%2528V1.0.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="http://4.bp.blogspot.com/-une62GL8BNU/TwLFzdlXcMI/AAAAAAAABHM/nx_rwWexKps/s1600/2012-01-03+17-01-42_%25E8%25AE%25A9%25E4%25BB%25BB%25E4%25BD%2595%25E7%25AA%2597%25E4%25BD%2593%25E9%2580%258F%25E6%2598%258E-By+GaryNg+%2528V1.0.png" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">以鼠标所在的窗口来设置透明度</td></tr>
+</tbody></table>
+<br />
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="http://2.bp.blogspot.com/-vB2dJ5xNQk4/TwLF0fn3OaI/AAAAAAAABHU/UqexmeeDm6Y/s1600/2012-01-03+17-02-20_Greenshot.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="http://2.bp.blogspot.com/-vB2dJ5xNQk4/TwLF0fn3OaI/AAAAAAAABHU/UqexmeeDm6Y/s1600/2012-01-03+17-02-20_Greenshot.png" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">以窗口的名字来设置透明度，内置 窗口名查看器，能更方便的获取窗口名字</td></tr>
+</tbody></table>
+<br />
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="http://1.bp.blogspot.com/-neD7-2e7DTI/TwLF1a-XPsI/AAAAAAAABHc/-vRIwdmwoMU/s1600/2012-01-03+17-03-28_Greenshot.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="http://1.bp.blogspot.com/-neD7-2e7DTI/TwLF1a-XPsI/AAAAAAAABHc/-vRIwdmwoMU/s1600/2012-01-03+17-03-28_Greenshot.png" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">窗口名查看器实例</td></tr>
+</tbody></table>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+软件示范：<br />
+<br />
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="http://1.bp.blogspot.com/-p9sXxSQqX68/TwLIa6nWYYI/AAAAAAAABIM/lSI2mtX8hGk/s1600/2012-01-03+17-13-20_Greenshot.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="http://1.bp.blogspot.com/-p9sXxSQqX68/TwLIa6nWYYI/AAAAAAAABIM/lSI2mtX8hGk/s1600/2012-01-03+17-13-20_Greenshot.png" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">用Notepad开刀，用“窗体名字查询器”</td></tr>
+</tbody></table>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+</div>
+<br />
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="http://1.bp.blogspot.com/-7Q981ukAWqc/TwLIl3KRqdI/AAAAAAAABIc/rmQ9f14NLpY/s1600/2012-01-03+17-14-42_Greenshot.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="http://1.bp.blogspot.com/-7Q981ukAWqc/TwLIl3KRqdI/AAAAAAAABIc/rmQ9f14NLpY/s1600/2012-01-03+17-14-42_Greenshot.png" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">按下确定！Notepad变透明啦～</td></tr>
+</tbody></table>
+<br />
+<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody>
+<tr><td style="text-align: center;"><a href="http://1.bp.blogspot.com/-yUTgM08E7sA/TwLIzdHTKHI/AAAAAAAABIs/GvfOo_9RyXk/s1600/2012-01-03+17-16-37_Greenshot.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" src="http://1.bp.blogspot.com/-yUTgM08E7sA/TwLIzdHTKHI/AAAAAAAABIs/GvfOo_9RyXk/s1600/2012-01-03+17-16-37_Greenshot.jpg" /></a></td></tr>
+<tr><td class="tr-caption" style="text-align: center;">不止Notepad哦～Google Chrome也可以～</td></tr>
+</tbody></table>
+<br />
+<br />

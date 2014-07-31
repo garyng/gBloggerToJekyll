@@ -1,0 +1,32 @@
+还记得本部落格的这边文章么？——<a href="http://garyngzhongbo.blogspot.com/2011/10/windows-8virtual-boxwindows-8.html" target="_blank">【原创教程】【Windows 8预览版介绍】Virtual Box玩Windows 8!</a><br />
+2月29日22时35分，千呼万唤始出来的Windows8消费者预览版(Windows 8 Consumer Preview)终于发布了！<br />
+Windows 8带来全新的用户体验：<br />
+<blockquote>
+<strong>全新的Metro开始屏幕，安全性能更高，快速的开机、更长的电池寿命、更少的内存占用。</strong></blockquote>
+此外，Windows商店正式开业，一个帐号即可漫游人性化设置，借助SkyDrive漫步云端，轻松还原/重置你的电脑等等，一切等待你的发现。<br />
+<br />
+<strong><u><span style="font-size: small;">ISO 镜像文件下载地址</span></u></strong><br />
+<span style="font-size: small;">官方网站（英文版）：</span><a href="http://windows.microsoft.com/en-US/windows-8/iso"><span style="font-size: small;">http://windows.microsoft.com/en-US/windows-8/iso</span></a><br />
+<br />
+<blockquote>
+<span style="font-size: small;">English<br />64-bit (x64)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><a href="http://iso.esd.microsoft.com/WCPDL/BD1B8A49393E30CC9C4E5C88457D73E964F1F3B18/Windows8-ConsumerPreview-64bit-English.iso"><span style="font-size: small;">Download</span></a><span style="font-size: small;"> (3.3 GB)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sha 1 hash — 1288519C5035BCAC83CBFA23A33038CCF5522749<br />32-bit (x86)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><a href="http://iso.esd.microsoft.com/WCPDL/BD1B8A49393E30CC9C4E5C88457D73E964F1F3B18/Windows8-ConsumerPreview-32bit-English.iso"><span style="font-size: small;">Download</span></a><span style="font-size: small;"> (2.5 GB)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sha 1 hash — E91ED665B01A46F4344C36D9D88C8BF78E9A1B39<br /><strong>Product Key:&nbsp;&nbsp; DNJXJ-7XBW8-2378T-X22TX-BKG7J</strong></span>  <br />
+<span style="font-size: small;">简体中文<br />64-位 (x64)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><a href="http://iso.esd.microsoft.com/WCPDL/BD1B8A49393E30CC9C4E5C88457D73E964F1F3B18/Windows8-ConsumerPreview-64bit-ChineseSimplified.iso"><span style="font-size: small;">下载</span></a><span style="font-size: small;"> (3.4 GB)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sha 1 hash — DF69B851F9A81DECBB16648CC452461894416EB0<br />32-位 (x86)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><a href="http://iso.esd.microsoft.com/WCPDL/BD1B8A49393E30CC9C4E5C88457D73E964F1F3B18/Windows8-ConsumerPreview-32bit-ChineseSimplified.iso"><span style="font-size: small;">下载</span></a><span style="font-size: small;"> (2.6 GB)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sha 1 hash — E29A2072745A48C14A1C2E5A61F5230841BEDB45<br /><strong>序列号:&nbsp;&nbsp; DNJXJ-7XBW8-2378T-X22TX-BKG7J</strong></span></blockquote>
+<strong><u><span style="font-size: small;">系统需求</span></u></strong>  <br />
+Windows 8 Consumer Preview 能够在支持 Windows7 的相同硬件上平稳运行！  <br />
+<ul>
+<li>处理器：1GHz 或以上  </li>
+<li>RAM：1 GB（32 位）或 2 GB（64 位）  </li>
+<li>硬盘空间：16 GB（32 位）或 20 GB（64 位）  </li>
+<li>显卡：Microsoft DirectX 9 图形设备或更高版本  若要使用某些特定功能，还需要满足以下附加要求：  <br />
+若要使用触控，你需要支持多点触控的平板电脑或显示器。  <br />
+若要访问 Windows 应用商店并下载和运行程序，你需要有效的 Internet 连接及至少 1024 x 768 的屏幕分辨率。  <br />
+若要拖拽程序，你需要至少 1366 x 768 的屏幕分辨率。</li>
+</ul>
+<span style="font-size: small;"><strong><u></u></strong></span>&nbsp; <br />
+<span style="font-size: small;"><strong><u>Windows 8 Consumer Preview入门教程</u></strong></span>  <br />
+<div align="left">
+<span style="font-size: small;">英文版（官方网站下载）：<a href="http://download.microsoft.com/download/3/4/E/34E2EE97-EE9B-43C8-8A61-8290167FA0BE/Windows_Consumer_Preview-Windows8_guide.pdfws8_guide.pdf">Windows_Consumer_Preview-Windows8_guide.pdf</a></span>  </div>
+<span style="font-size: small;">简体中文版（从笔者的Dropbox下载，忘了官方网站的下载链接了）：<a href="http://dl.dropbox.com/u/43619472/OtherSoft/Window8%E6%B6%88%E8%B4%B9%E8%80%85%E9%A2%84%E8%A7%88%E7%89%88%E5%BF%AB%E9%80%9F%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97.pdf" target="_blank">Window8消费者预览版快速使用指南.pdf</a></span>  <br />
+<span style="font-size: small;"></span>&nbsp; <br />
+笔者正在努力的下载英文版本的Windows 8 CP (Consumer Preview) 的 32-Bit 版本（网速不给力啊）<br />
+耐心滴等待安装教程+试用吧！

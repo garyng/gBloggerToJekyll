@@ -1,0 +1,56 @@
+还记得这篇教程么？<br />
+<a href="http://garyngzhongbo.blogspot.com/2012/01/facebook.html">【原创教程】Facebook的新功能 - 聊天内打出图片</a><br />
+<br />
+我就想 能不能简便一点呢？<br />
+于是<br />
+摸索了许久<br />
+终于找到 那些号码 的 “规律”<br />
+<br />
+***2012-2-16 Fixed Bug<br />
+<br />
+便写了这款小程序：<br />
+<b>Facebook Chat Triks - By GaryNg</b><br />
+下载地址：<a href="http://dl.dropbox.com/u/43619472/%E6%89%B9%E5%A4%84%E7%90%86/VB6/FBChatT/FBChatTricks.zip">FBChatTriks.zip（点击以下载）</a><br />
+<br />
+<br />
+主要功能：<br />
+1、将英文字母转换成 Facebook Chat 特有 的图片代码（目前只支援<b>英文大写字母</b>）<br />
+2、自动将转换后的代码 Copy 到 Clipbord<br />
+<br />
+介绍：<br />
+-主界面<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-ZovaCSXpuoM/Tz93OT9A7NI/AAAAAAAABME/tgmf0kj_j3Y/s1600/2012-02-18+17-59-21.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-ZovaCSXpuoM/Tz93OT9A7NI/AAAAAAAABME/tgmf0kj_j3Y/s1600/2012-02-18+17-59-21.png" /></a></div>
+<br />
+<div style="text-align: center;">
+Convert 按钮 - 转换</div>
+<div style="text-align: center;">
+Copy To Clipboard - 复制文本框内的内容到 剪贴板</div>
+<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-pRgiAiXuVhs/Tz93PbFFQsI/AAAAAAAABMM/7SgNGV8Njys/s1600/2012-02-18+18-00-02.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-pRgiAiXuVhs/Tz93PbFFQsI/AAAAAAAABMM/7SgNGV8Njys/s1600/2012-02-18+18-00-02.png" /></a></div>
+<br />
+<div style="text-align: center;">
+测试</div>
+<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-dGYEWidGZcw/Tz93QL_L4xI/AAAAAAAABMQ/lO21ZeoonAU/s1600/2012-02-18+18-01-30.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-dGYEWidGZcw/Tz93QL_L4xI/AAAAAAAABMQ/lO21ZeoonAU/s1600/2012-02-18+18-01-30.png" /></a></div>
+<br />
+<div style="text-align: center;">
+效果图～</div>
+<div style="text-align: center;">
+<br /></div>
+<div style="text-align: left;">
+漂亮吧？</div>
+<div style="text-align: left;">
+过后会加入 各种符号 + 支持小写字母！</div>
+<div style="text-align: left;">
+请 敬请期待 下一个版本呗～～</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
