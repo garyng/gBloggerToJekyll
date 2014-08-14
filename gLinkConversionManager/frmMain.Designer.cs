@@ -70,6 +70,7 @@
 			this.MinimumSize = new System.Drawing.Size(350, 270);
 			this.Name = "frmMain";
 			this.Text = "gBloggerToJekyll - Blog Link Conversion Helper";
+			this.Load += new System.EventHandler(this.frmMain_Load);
 			this.ResumeLayout(false);
 
 		}

@@ -35,7 +35,6 @@ namespace gLinkConversionManager
 		{
 			InitializeComponent();
 			_hwndNextViewer = SetClipboardViewer(this.Handle);
-			loadFile();
 		}
 
 
@@ -145,6 +144,11 @@ namespace gLinkConversionManager
 			string postFilename = postDate + "-" + postName;
 			
 			return "{% post_url " + postFilename + " %}";
+		}
+
+		private void frmMain_Load(object sender, EventArgs e)
+		{
+			loadFile();
 		}
 	}
 }
