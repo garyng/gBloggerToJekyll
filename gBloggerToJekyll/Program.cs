@@ -17,409 +17,322 @@ namespace gBloggerToJekyll
 {
 	class Program
 	{
-		[DllImport("kernel32.dll")]
-		static extern IntPtr GetConsoleWindow();
+		static BloggerManager bh = new BloggerManager("1063292627846-cklckmk7efnioeli841r29q98n8tika4.apps.googleusercontent.com", "zIJi0yOm0d3v54oPsu2jvvkF", "gBloggerToJekyll");
+
+		enum UserOption
+		{
+			ContinueToNext,
+			RemainInThisPage, 
+			BackToPrevius,
+			Exit
+		}
+
+		private static int promptUserSelect(int selectionMax)
+		{
+			Console.WriteLine();
+			Console.Write("Please select: ");
+			string input = Console.ReadLine();
+			int selected;
+			if (int.TryParse(input, out selected))
+			{
+				if (selected <= selectionMax && selected > 0)
+				{
+					return selected;
+				}
+				else
+				{
+					Console.WriteLine("Please enter a valid option");
+					return -1;
+				}
+			}
+			else
+			{
+				Console.WriteLine("Please input a number");
+				return -1;
+			}
+		}
+
+		private static void displayAnyKeyContinue()
+		{
+			Console.WriteLine("Press any key to continue...");
+			Console.ReadKey();
+		}
+
+		private static void menuExit(int num)
+		{
+			Console.WriteLine( num + ". Exit");
+		}
+		private static void menuBack(int num)
+		{
+			Console.WriteLine(num + ". Back");
+		}
+		private static void menuContinue(int num)
+		{
+			Console.WriteLine(num + ". Continue");
+		}
+
+		private static Program.UserOption login()
+		{
+			string[] dis = {
+							   "1. Login",
+							   "2. Logout",
+						   };
+			Console.WriteLine(string.Join(Environment.NewLine,dis));
+			Console.WriteLine();
+			menuExit(dis.Count() + 1);
+
+			int selected = promptUserSelect(dis.Count() + 1);
+			while (selected == -1)
+			{
+				selected = promptUserSelect(dis.Count() + 1);
+			}
+			
+			switch (selected)
+			{
+				case 1:
+					Console.WriteLine("Launching default internet browser to authorize application");
+					bh.Login();
+					Console.WriteLine("Authorized");
+					displayAnyKeyContinue();
+					return UserOption.ContinueToNext;
+				case 2:
+					Console.WriteLine("Logging out");
+					bh.Logout();
+					Console.WriteLine("Logged out");
+					displayAnyKeyContinue();
+					return UserOption.RemainInThisPage;
+				default:
+					Environment.Exit(-1);
+					return UserOption.Exit;
+			}
+
+		}
+		private static void stepLogin()
+		{
+			Console.Clear();
+			UserOption uo = login();
+			while (uo == UserOption.RemainInThisPage)
+			{
+				uo = login();
+			}
+			
+		}
+
+		private static Program.UserOption listBlogs(out Blog selectedBlog)
+		{
+			Console.WriteLine("Fetching available blogs");
+			List<Blog> blogs = bh.ListAllBlogs();
+			Console.Clear();
+			for (int i = 0; i < blogs.Count; i++)
+			{
+				Console.WriteLine((i+1).ToString() + ". " + blogs[i].Name + " ( " + blogs[i].Id + " ) ");
+			}
+			Console.WriteLine();
+			menuBack(blogs.Count + 1);
+			int selected = promptUserSelect(blogs.Count + 1);
+			while (selected == -1)
+			{
+				selected = promptUserSelect(blogs.Count + 1);
+			}
+			if (selected == (blogs.Count+ 1))
+			{
+				selectedBlog = null;
+				return UserOption.BackToPrevius;
+			}
+			else
+			{
+				selectedBlog = blogs[selected - 1];
+				return UserOption.ContinueToNext;
+			}
+		}
+		private static Program.UserOption stepListBlogs(out Blog b)
+		{
+			Console.Clear();
+			UserOption uo = listBlogs(out b);
+			if (uo == UserOption.BackToPrevius)
+			{
+				return uo;
+			}
+			else
+			{
+				return UserOption.ContinueToNext;
+			}
+		}
+
+		private static Program.UserOption getBlogUserInfo(Blog b)
+		{
+			Console.Clear();
+			Console.WriteLine("Fetching blog user info");
+			BlogPerUserInfo bpui = bh.GetBlogUserInfo(b.Id);
+			string[] dis = {
+							   "Blog Name: " + b.Name,
+							   "Last Updated: " + b.Updated,
+							   "Blog Published: " + b.Published,
+							   "Blog Id: " + bpui.BlogId,
+							   "User Id: " + bpui.UserId,
+							   "Access Level: " + bpui.Role,
+							   "Blog Link: " + b.Url,
+							   bpui.HasAdminAccess.HasValue?(bpui.HasAdminAccess == true?(bh.GetPageViews(b.Id).HasValue?"Total Page Views: " + bh.GetPageViews(b.Id).ToString():""):""):"",
+							   Environment.NewLine
+						   };
+			Console.Clear();
+			Console.WriteLine(string.Join(Environment.NewLine,dis));
+			if (bpui.HasAdminAccess == true)
+			{
+				menuContinue(1);
+				menuBack(2);
+
+				int selected = promptUserSelect(2);
+				while (selected == -1)
+				{
+					selected = promptUserSelect(2);
+				}
+				switch (selected)
+				{
+					case 1:
+						return UserOption.ContinueToNext;
+					default:
+						return UserOption.BackToPrevius;
+				}
+			}
+			else
+			{
+				Console.WriteLine("You are not ADMIN of this blog");
+				Console.WriteLine("Please select another blog");
+				displayAnyKeyContinue();
+				return UserOption.BackToPrevius;
+			}
+		}
+
+		private static Program.UserOption fetchLivePost(Blog b, out List<BloggerManager.PostInfo> postList)
+		{
+			Console.Clear();
+
+			Console.WriteLine("Fetching all live post in blog");
+
+			List<BloggerManager.PostInfo> postInfoList = new List<BloggerManager.PostInfo>();
+			bh.GetLivePosts(b.Id).ForEach(item=>postInfoList.Add(bh.GetPost(b.Id,item.Id)));
+
+			Console.WriteLine("Fetched " + postInfoList.Count + " posts");
+
+			Console.WriteLine("Saving post info to JSON data");
+			LinkConversionHelper.Save(postInfoList);
+			Console.Clear();
+
+			Console.WriteLine("1. Convert all live post now ( total " + postInfoList.Count + " posts )");
+			menuBack(2);
+
+			int selected =  promptUserSelect(2);
+			while (selected == -1)
+			{
+				selected = promptUserSelect(2);
+			}
+			switch (selected)
+			{
+				case 1:
+					postList = postInfoList;
+					return UserOption.ContinueToNext;
+				default:
+					postList = null;
+					return UserOption.BackToPrevius;
+			}
+		}
+
+		private static void directoryCleanUp(PostConverter pc)
+		{
+			if (pc.CleanUp(true) == true)
+			{
+				string[] dis = { 
+								   "'_converted' and '_temp' folder still exsist",
+								   "These folder need to be deleted before converting posts",
+								   "Please backup your '_converted' folder that contain the converted posts if needed"
+							   };
+				Console.WriteLine(string.Join(Environment.NewLine, dis));
+				displayAnyKeyContinue();
+				pc.CleanUp(false);
+			}
+		}
+
+		private static Program.UserOption convertLivePost(Blog b, List<BloggerManager.PostInfo> postInfoList)
+		{
+			Console.Clear();
+			
+			PostConverter pc = new PostConverter("_converted-" + b.Id, "_temp-" + b.Id);
+			directoryCleanUp(pc);
+
+			Console.Clear();
+			Console.WriteLine("Converting posts");
+
+			for (int i = 0; i < postInfoList.Count; i++)
+			{
+				Console.WriteLine("Saving \" " + postInfoList[i].Title + " \" ( " + (i + 1) + " of " + (postInfoList.Count + 1) + " )");
+				pc.SavePost(postInfoList[i]);
+				Console.CursorTop--;
+				Console.WriteLine(new string(' ', Console.WindowWidth - 1));
+				Console.CursorTop--;
+			}
+			Console.Clear();
+			string[] dis = { 
+							Environment.NewLine,
+							 "Done converting " + postInfoList.Count + " posts",
+							 "Converted posts save in folder '_converted-" + b.Id + "'",
+							 "Raw post saved in folder '_temp-" + b.Id + "'",
+							 Environment.NewLine,
+							 "Waning: Some of the formatting in posts may not be converted correctly",
+							 "such as code highlight, table and links",
+							 "you may use the gBloggerToJekyll's  tool - link convertsion helper for helping you to convert links that link inside blog"
+						 };
+			Console.WriteLine(string.Join(Environment.NewLine,dis));
+			menuBack(1);
+			menuExit(2);
+			int selected = promptUserSelect(2);
+			while (selected == -1)
+			{
+				selected = promptUserSelect(2);
+			}
+			switch (selected)
+			{
+				case 1:
+					return UserOption.BackToPrevius;
+				default:
+					Environment.Exit(-1);
+					return UserOption.Exit;
+			}
+			
+		}
 
 		static void Main(string[] args)
 		{
-			BloggerManager bh = new BloggerManager("1063292627846-cklckmk7efnioeli841r29q98n8tika4.apps.googleusercontent.com", "zIJi0yOm0d3v54oPsu2jvvkF", "gBloggerToJekyll");
 			List<Blog> blogs = new List<Blog>();
-
-			Console.ReadKey();
-			bh.Login();
-			//List blogs
-			blogs = bh.ListAllBlogs();
-			blogs.ForEach(delegate(Blog item)
+Login:
+			stepLogin();
+ListBlog:
+			Blog selectedBlog;
+			UserOption uo = stepListBlogs(out selectedBlog);
+			if (uo == UserOption.BackToPrevius)
 			{
-				Console.WriteLine(item.Name + " (" + item.Id+ ")");
-				Console.WriteLine(item.Published.Value.ToString());
-				Console.WriteLine(item.Updated.Value.ToString());
-				Console.WriteLine();
-			});
-
-			//Select blog
-			Blog blog = blogs[1];
-
-			BlogPerUserInfo bpui = bh.GetBlogUserInfo(blog.Id);
-			Console.WriteLine(bpui.UserId);
-			Console.WriteLine(bpui.Role);
-			
-			
-			//Kill if no admin
-			if (bpui.HasAdminAccess == true)
-			{
-				ConvertManager cm = new ConvertManager("_converted", "_tmp");
-				Console.WriteLine(bh.GetPageViews(blog.Id));
-
-				//bh.GetLivePosts(blog.Id).ForEach(item => Console.WriteLine(item.Title + " " + item.Url));
-
-				List<gBloggerToJekyll.BloggerManager.PostInfo> postInfoList = new List<BloggerManager.PostInfo>();
-
-				bh.GetLivePosts(blog.Id).ForEach(item => postInfoList.Add(bh.GetPost(blog.Id, item.Id)));
-
-				LinkConversionHelper.Save(postInfoList);
-
-				Console.WriteLine("Press any key to convert posts");
-				Console.ReadKey();
-				postInfoList.ForEach(delegate(gBloggerToJekyll.BloggerManager.PostInfo item)
-				{
-					cm.SavePost(item);
-					Console.WriteLine(item.Title);
-				});
-
-				//BloggerManager.PostInfo pi = bh.GetPost(blog.Id, bh.GetLivePosts(blog.Id)[0].Id);
-				//pi.Tags.ForEach(item => Console.WriteLine(item));
-				//ConvertManager bcm = new ConvertManager("_converted","_temp");
-				//bcm.SavePost(pi);
-
-				//bh.GetDraftPosts(blog.Id).ForEach(item => Console.WriteLine("* " + item.Title));
+				goto Login;
 			}
 
-			Console.ReadKey();
-			//bh.Logout();
-		}
-
-	}
-
-	static class LinkConversionHelper
-	{
-		public static void Save(List<gBloggerToJekyll.BloggerManager.PostInfo> postList)
-		{
-			serializeDict(convertListToDict(postList));
-		}
-
-		private static void serializeDict(Dictionary<string, DateTime?> dict)
-		{
-			string serialized = SerializeHelper.ToJson(dict);
-			File.WriteAllText("gbtk-data.json", serialized);
-		}
-
-		private static Dictionary<string,DateTime?> convertListToDict(List<gBloggerToJekyll.BloggerManager.PostInfo> postList)
-		{
-			Dictionary<string, DateTime?> urlDate = new Dictionary<string, DateTime?>();
-			postList.ForEach(item => urlDate.Add(item.Url.ToLower(), item.Published));
-			return urlDate;
-		}
-	}
-	class ConvertManager
-	{
-		string _strSaveFolderName;
-		string _strSaveFolderTempName;
-
-		enum Converter
-		{
-			html2text,
-			pandoc
-		}
-
-		public ConvertManager(string saveFolderName, string saveFolderTempName)
-		{
-			_strSaveFolderName = saveFolderName;
-			_strSaveFolderTempName = saveFolderTempName;
-			
-		}
-
-		public void SavePost(BloggerManager.PostInfo postInfo)
-		{
-			string filename = processFileName(postInfo.Url, postInfo.Published, ".md");
-			
-			string frontMatter = createPostFrontMatter(postInfo.Title, postInfo.AuthorName, postInfo.Tags);
-			//string fmFilename = saveToFile(frontMatter, filename, ".fm", _strSaveFolderTempName);
-
-			string content = postInfo.Content;
-			string contentFilename = saveToFile(content, filename, ".content", _strSaveFolderTempName);
-
-			content = convertPostContent(contentFilename, Converter.pandoc);
-
-			saveToFile(frontMatter + content, filename, "", _strSaveFolderName);
-			//Directory.Delete(_strSaveFolderTempName, true);
-		}
-		
-		private string saveToFile(string content, string filename, string extension, string folder)
-		{
-			if (!Directory.Exists(folder))
+			uo = getBlogUserInfo(selectedBlog);
+			if (uo == UserOption.BackToPrevius)
 			{
-				Directory.CreateDirectory(folder);
-			}
-			string savePath = folder +  @"\" + filename + extension;
-			using (StreamWriter sw = new StreamWriter(savePath,false))
-			{
-				sw.Write(content);
-				sw.Flush();
-			};
-			return savePath;
-		}
-
-		private string convertPostContent(string filename, Converter converter)
-		{
-			string processName = "";
-			string processArgs = "";
-
-			if (converter == Converter.pandoc)
-			{
-				string[] pandocExtension = {
-											   "backtick_code_blocks",
-											   "auto_identifiers",
-											   "autolink_bare_uris",
-										   };
-				processName = "pandoc.exe";
-				processArgs = "-f html -t markdown_strict+" + string.Join("+", pandocExtension) + " --atx-headers \"" + filename + "\"";
-			}
-			else if (converter == Converter.html2text)
-			{
-				processName = "html2text.exe";
-				processArgs = " \"" + filename + "\" -b 0";
+				goto ListBlog;
 			}
 
-			return redirectPipeOutput(processName, processArgs);
-		}
-
-		private string redirectPipeOutput(string processName, string processArgs)
-		{
-			ProcessStartInfo psi = new ProcessStartInfo(processName, processArgs);
-			psi.RedirectStandardOutput = true;
-
-			Process proc = new Process() { StartInfo = psi };
-
-			psi.UseShellExecute = false;
-			proc.Start();
-
-			string outputString = "";
-			proc.WaitForExit(5000);
-			using (StreamReader sr = new StreamReader(proc.StandardOutput.BaseStream))
+			List<BloggerManager.PostInfo> postInfoList = new List<BloggerManager.PostInfo>();
+			uo = fetchLivePost(selectedBlog, out postInfoList);
+			if (uo == UserOption.BackToPrevius)
 			{
-				outputString = sr.ReadToEnd();
-			}
-			return outputString;
-		}
-
-		private string processFileName(string postUrl, DateTime? date, string extension)
-		{
-			string postName = Path.GetFileNameWithoutExtension(new Uri(postUrl).AbsolutePath).Trim().ToLower();
-			string postDate = date.HasValue ? date.Value.ToString("yyyy-MM-dd").Trim() : DateTime.Now.ToString("yyyy-MM-dd").Trim();
-			string postFilename = postDate + "-" + postName + extension;
-			return postFilename;
-		}
-
-		private string createPostFrontMatter(string Title, string AuthorName, List<string> Tags)
-		{
-			string tag = "---";
-			string layout = "post";
-			string title = escapeString(Title);
-			string author = escapeString(AuthorName);
-			string tags = "[" + string.Join(",", Tags.Select(item=>escapeString(item))) + "]";
-
-			string[] frontMatter = {
-									   tag,
-									   joinFrontMatterPropValue("layout",layout),
-									   joinFrontMatterPropValue("title",title),
-									   joinFrontMatterPropValue("author",author),
-									   joinFrontMatterPropValue("tags",tags),
-									   tag,
-									   Environment.NewLine
-								   };
-			return string.Join(Environment.NewLine, frontMatter);
-		}
-
-		private string joinFrontMatterPropValue(string property, string value)
-		{
-			return property + ": " + value;
-		}
-
-		private string escapeString(string str)
-		{
-			str = "'" + str.Replace("'", "''") + "'";
-			return str;
-		}
-	}
-
-	class BloggerManager
-	{
-		ClientSecrets _csAppSec = new ClientSecrets();
-		UserCredential _ucUser = null;
-		BloggerService _bsBlogger = null;
-		FileDataStore _fdsStore = null;
-		string _strAppName = "";
-
-		public struct PostInfo
-		{
-			public string Title;
-			public string Content;
-			public string Url;
-			public string AuthorName;
-			public DateTime? Published;
-			public List<string> Tags;
-		}
-
-		public BloggerManager(string clientId, string clientSec,string appName)
-		{
-			_csAppSec = new ClientSecrets
-			{
-				ClientId = clientId,
-				ClientSecret = clientSec
-			};
-
-			_fdsStore = new FileDataStore(appName);
-			_strAppName = appName;
-		}
-
-		public void Login()
-		{
-			_ucUser = BloggerHelper.createCredential(_csAppSec, _fdsStore);
-			_bsBlogger = BloggerHelper.createService(_ucUser, _strAppName);
-		}
-
-		public void Logout()
-		{
-			_ucUser = null;
-			_bsBlogger = null;
-			_fdsStore.ClearAsync();
-		}
-
-		public List<Blog> ListAllBlogs()
-		{
-			return BloggerHelper.listAllBlogs(_bsBlogger);
-		}
-
-		public BlogPerUserInfo GetBlogUserInfo(string blogId)
-		{
-			return BloggerHelper.getBlogUserInfo(_bsBlogger, blogId);
-		}
-
-		public long? GetPageViews(string blogId)
-		{
-			return BloggerHelper.getPageViews(_bsBlogger, blogId, PageViewsResource.GetRequest.RangeEnum.All)[0].Count;
-		}
-
-		public List<Post> GetLivePosts(string blogId)
-		{
-			return BloggerHelper.getPostList(_bsBlogger, blogId, PostsResource.ListRequest.StatusEnum.Live);
-		}
-
-		public List<Post> GetDraftPosts(string blogId)
-		{
-			return BloggerHelper.getPostList(_bsBlogger, blogId, PostsResource.ListRequest.StatusEnum.Draft);
-		}
-
-		public BloggerManager.PostInfo GetPost(string blogId, string postId)
-		{
-			Post p = BloggerHelper.getPost(_bsBlogger, blogId, postId);
-			PostInfo pi = new PostInfo();
-			pi.AuthorName = p.Author.DisplayName;
-			pi.Content = p.Content;
-			pi.Published = p.Published;
-			pi.Title = p.Title;
-			pi.Url = p.Url;
-			pi.Tags = p.Labels == null? new List<string>() : p.Labels.ToList();
-			return pi;
-		}
-
-	}
-
-	static class BloggerHelper
-	{
-		public static UserCredential createCredential(ClientSecrets cs, FileDataStore fds)
-		{
-			UserCredential uc = GoogleWebAuthorizationBroker.AuthorizeAsync(
-				cs,
-				new[] { BloggerService.Scope.Blogger },
-				"user",
-				CancellationToken.None,
-				fds
-				).Result;
-			return uc;
-		}
-
-		public static BloggerService createService(UserCredential uc, string appName)
-		{
-			BloggerService bs = new BloggerService(new BaseClientService.Initializer
-				{
-					HttpClientInitializer = uc,
-					ApplicationName = appName
-				});
-			return bs;
-		}
-
-		public static Post getPost(BloggerService bs, string blogId, string postId)
-		{
-			PostsResource.GetRequest req = bs.Posts.Get(blogId, postId);
-			req.View = PostsResource.GetRequest.ViewEnum.ADMIN;
-
-			Post p = req.Execute();
-			return p;
-		}
-
-		public static List<Post> getPostList(BloggerService bs, string blogId, PostsResource.ListRequest.StatusEnum status)
-		{
-			PostsResource.ListRequest req = bs.Posts.List(blogId);
-			req.View = PostsResource.ListRequest.ViewEnum.ADMIN;
-			req.FetchBodies = false;
-			req.FetchImages = false;
-			req.Status = status;
-
-			List<Post> listOfPost = new List<Post>();
-			string firstToken = "";
-
-			while (true)
-			{
-				PostList posts = req.Execute();
-				req.PageToken = posts.NextPageToken;
-				if (firstToken == "")
-				{
-					firstToken = posts.NextPageToken;
-				}
-				else if (firstToken != "" && posts.NextPageToken == firstToken)
-				{
-					break;
-				}
-				if (posts.Items != null)
-				{
-					posts.Items.ToList().ForEach(item => listOfPost.Add(item));
-				}
+				goto ListBlog;
 			}
 
-			return listOfPost;
-
-		}
-
-		public static List<Pageviews.CountsData> getPageViews(BloggerService bs, string blogId, PageViewsResource.GetRequest.RangeEnum range)
-		{
-			if (bs == null || getBlogUserInfo(bs, blogId).HasAdminAccess != true)
+			uo = convertLivePost(selectedBlog, postInfoList);
+			if (uo == UserOption.BackToPrevius)
 			{
-				return null;
+				goto ListBlog;
 			}
-
-			PageViewsResource.GetRequest req = bs.PageViews.Get(blogId);
-			req.Range = range;
-
-			Pageviews pv = req.Execute();
-			return pv.Counts.ToList();
 		}
 
-		public static BlogPerUserInfo getBlogUserInfo(BloggerService bs, string blogId)
-		{
-			if (bs == null)
-			{
-				return null;
-			}
-
-			BlogUserInfosResource.GetRequest req = bs.BlogUserInfos.Get("self", blogId);
-			BlogUserInfo bui = req.Execute();
-
-			return bui.BlogUserInfoValue;
-		}
-
-		public static List<Blog> listAllBlogs(BloggerService bs)
-		{
-			if (bs == null)
-			{
-				return null;
-			}
-
-			BlogsResource.ListByUserRequest req = bs.Blogs.ListByUser("self");
-			BlogList bl = req.Execute();
-
-			return bl.Items.ToList();
-		}
 	}
 }

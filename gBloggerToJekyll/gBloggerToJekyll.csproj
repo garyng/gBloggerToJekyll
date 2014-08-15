@@ -103,6 +103,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BloggerHelper.cs" />
+    <Compile Include="BloggerManager.cs" />
+    <Compile Include="LinkConversionHelper.cs" />
+    <Compile Include="PostConverter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SerializeHelper.cs" />
